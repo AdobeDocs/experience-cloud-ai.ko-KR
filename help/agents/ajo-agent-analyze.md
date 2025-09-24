@@ -23,9 +23,9 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 >Journey Agent은 AI Assistant에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 그러나 Journey Agent 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
 >**여정 보기**: 이 권한을 사용하면 Journey Agent을 사용하여 AI Assistant에서 직접 여정에 대한 인사이트를 볼 수 있습니다.
->>**여정 관리**: 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
->>**세그먼트 보기**: 이 권한을 사용하면 Journey Agent을 사용하여 AI Assistant에서 직접 대상자에 대한 인사이트를 볼 수 있습니다.
->>**세그먼트 관리**: 사용 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
+>&#x200B;>**여정 관리**: 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
+>&#x200B;>**세그먼트 보기**: 이 권한을 사용하면 Journey Agent을 사용하여 AI Assistant에서 직접 대상자에 대한 인사이트를 볼 수 있습니다.
+>&#x200B;>**세그먼트 관리**: 사용 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
 
 ![AJO 에이전트용 샘플](./images/ajo-agent/ajo-agent-sample.png)
 
