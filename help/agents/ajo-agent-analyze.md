@@ -4,9 +4,9 @@ description: Journey Agent 분석 기술에 대한 포괄적인 안내서를 통
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
+source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 >Journey Agent은 AI Assistant에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 그러나 Journey Agent 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
 >**여정 보기**: 이 권한을 사용하면 Journey Agent을 사용하여 AI Assistant에서 직접 여정에 대한 인사이트를 볼 수 있습니다.
->&#x200B;>**여정 관리**: 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
->&#x200B;>**세그먼트 보기**: 이 권한을 사용하면 Journey Agent을 사용하여 AI Assistant에서 직접 대상자에 대한 인사이트를 볼 수 있습니다.
->&#x200B;>**세그먼트 관리**: 사용 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
+>>**여정 관리**: 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
+>>**세그먼트 보기**: 이 권한을 사용하면 Journey Agent을 사용하여 AI Assistant에서 직접 대상자에 대한 인사이트를 볼 수 있습니다.
+>>**세그먼트 관리**: 사용 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
 
 ![AJO 에이전트용 샘플](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -105,7 +105,10 @@ Journey Agent Analyze는 다음 기능을 지원합니다.
 
 ### 폴아웃 분석
 
-
+- &quot;7월 4일 여정 캠페인에 대한 노드별 폴아웃을 분석하려고 합니다.&quot;
+- &quot;7월 4일 여정 캠페인에 대한 폴아웃 분석을 수행합니다.&quot;
+- &quot;7월 4일 여정 과정에서 프로필이 손실된 이유는 무엇입니까?&quot;
+- &quot;7월 4일 여정에서 사용자가 드롭오프하는 위치를 표시합니다.&quot;
 
 ### 충돌 분석 프롬프트
 
