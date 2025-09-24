@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent은 AI Assistant에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 그러나 Audience Agent 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
 >**세그먼트 보기**: 이 권한을 사용하면 Audience Agent을 사용하여 AI Assistant에서 직접 대상자에 대한 인사이트를 볼 수 있습니다.
->>**세그먼트 관리**: 사용 권한을 부여하려면 Audience Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
+>&#x200B;>**세그먼트 관리**: 사용 권한을 부여하려면 Audience Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
 
 Audience Agent을 사용하면 중요한 대상 크기 변경 감지, 중복 대상 감지, 대상 인벤토리 탐색 및 대상 크기 검색을 포함하여 대상에 대한 인사이트를 볼 수 있습니다.
 
