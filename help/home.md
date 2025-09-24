@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud 애플리케이션의 AI
 description: Experience Cloud 애플리케이션이 생성 AI(GenAI), AI Assistant 및 아젠틱 AI를 사용하는 방법을 알아봅니다.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: 58cce845f525e7762f32379a8db5791b677ae54f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,9 @@ Customer Journey Analytics에서 사용할 수 있는 이 에이전트는 다음
 
 Journey Optimizer 사용자는 다음을 수행할 수 있습니다.
 
-- 자연어를 사용하여 여정 만들기, 분석 및 최적화
+- 자연어를 사용하여 여정 분석 및 최적화
 - 일정 또는 대상자 충돌 감지 및 해결
 - 성능 및 드롭오프 포인트 분석
-- 복제에 필요한 최고 성능의 여정 파악
 
 #### 제품 지원 에이전트
 

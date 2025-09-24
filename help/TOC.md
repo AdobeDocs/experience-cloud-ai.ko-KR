@@ -1,13 +1,13 @@
 ---
 audience: user
-user-guide-title: Adobe Experience Platform 안내서의 AI Assistant
+user-guide-title: Adobe Experience Cloud의 AI 지원
 user-guide-description: AI Assistant를 사용하여 Adobe Experience Platform 및 Real-Time Customer Data Platform으로 워크플로를 가속화하는 방법에 대해 알아봅니다.
 description: Experience Cloud의 AI Assistant에 대해 알아봅니다. Experience Cloud에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
-solution: Experience Platform
+solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 04afa45b0fae7aace9bd81afd2ac032c7d0f55c6
+source-git-commit: 58cce845f525e7762f32379a8db5791b677ae54f
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
