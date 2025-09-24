@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Audience Agent을 사용하여 대상을 만들고, 대상 변경 사항을 보고, 중복 대상을 감지하고, 대상 통찰력을 보는 방법에 대해 알아봅니다.
-source-git-commit: 6d1f6a8c6a97bbbad88c0dd8123fac7821f06754
+source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent은 AI Assistant에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 그러나 Audience Agent 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
 >**세그먼트 보기**: 이 권한을 사용하면 Audience Agent을 사용하여 AI Assistant에서 직접 대상자에 대한 인사이트를 볼 수 있습니다.
->&#x200B;>**세그먼트 관리**: 사용 권한을 부여하려면 Audience Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
+>>**세그먼트 관리**: 사용 권한을 부여하려면 Audience Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
 
 Audience Agent을 사용하면 중요한 대상 크기 변경 감지, 중복 대상 감지, 대상 인벤토리 탐색 및 대상 크기 검색을 포함하여 대상에 대한 인사이트를 볼 수 있습니다.
 
@@ -33,7 +33,7 @@ AI Assistant 내의 Audience Agent은 다음과 같은 사용 사례를 지원�
 - 대상을 정의하는 데 사용할 수 있는 XDM 필드 검색
    - 이 스킬을 사용하면 컨텍스트 및 관련성을 기반으로 대상자에서 사용할 올바른 필드를 보다 쉽게 식별할 수 있습니다
 
-Audience Agent은 현재 다음 기능을 지원하지 **않습니다**.
+Audience Agent은 다음 기능을 지원하지 않습니다. **현재**
 
 - 지식 기반 대상 만들기
    - 지식 기반 대상 만들기는 주어진 속성 및 이벤트를 기반으로 대상을 만드는 것입니다
