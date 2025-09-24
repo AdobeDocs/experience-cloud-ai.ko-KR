@@ -1,24 +1,31 @@
 ---
-title: Journey Agent 분석 스킬 개요 및 사용 안내서
+title: 여정 분석 에이전트 스킬 개요 및 사용 안내서
 description: Journey Agent 분석 기술에 대한 포괄적인 안내서를 통해 사용자가 마케팅 여정을 분석하고, 문제를 감지하고, 통찰력을 발견하고, 고객 참여를 최적화할 수 있습니다.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-hide: true
-hidefromtoc: true
-source-git-commit: 3bab2928fba6d06785797630e405b216cc080fd2
+source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
 
-# Journey Agent 분석: 스킬 개요 및 사용 안내서
+# 여정 분석 에이전트: 스킬 개요 및 사용 안내서
 
 ## 개요
 
-Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 만들고, 분석하고, 최적화할 수 있습니다. Journey Agent을 통해 실무자는 신속하게 여정을 구축하고, 일정 또는 대상 충돌을 감지 및 해결하고, 성과 및 중단점을 분석하고, 향후 캠페인을 위해 복제할 최고 성과의 여정을 식별할 수 있습니다. 이를 통해 전문가가 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
+Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. Journey Agent을 통해 실무자는 신속하게 일정 및/또는 대상 충돌을 식별하고 해결하며 여정에서 사용자 포기 지점을 감지하고 통찰력 또는 권장 사항을 제공할 수 있습니다. 이를 통해 전문가가 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
+
+>[!AVAILABILITY]
+>
+>Journey Agent은 AI Assistant에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 그러나 Journey Agent 기능을 완전히 사용하려면 다음 권한이 필요합니다.
+>
+>**여정 보기**: 이 권한을 사용하면 Journey Agent을 사용하여 AI Assistant에서 직접 여정에 대한 인사이트를 볼 수 있습니다.
+>>**여정 관리**: 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
+>>**세그먼트 보기**: 이 권한을 사용하면 Journey Agent을 사용하여 AI Assistant에서 직접 대상자에 대한 인사이트를 볼 수 있습니다.
+>>**세그먼트 관리**: 사용 권한을 부여하려면 Journey Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
 
 ![AJO 에이전트용 샘플](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -50,6 +57,8 @@ Journey Agent 분석 스킬은 마케팅 노력을 최적화하기 위해 활용
 
    - 프롬프트 기반 여정 인사이트 - 여정에 대한 운영적인 인사이트 표시 , 즉 &quot;모든 라이브 여정 표시&quot;
 
+이러한 각 분석에 대해 에이전트는 문제를 감지할 뿐만 아니라 문제를 해결하기 위해 **실행 가능한 권장 사항을 제공**&#x200B;합니다.
+
 
 ## 범위 및 범위 외 기술
 
@@ -59,6 +68,7 @@ Journey Agent Analyze는 다음 기능을 지원합니다.
 
 - **사후 쿼리**: 사용자가 여정 성능, 대상 사용 및 일정 충돌에 대한 특정 질문을 할 수 있습니다.
 - **다른 에이전트와 통합**: 더 자세한 분석을 위해 Audience Agent 및 Data Insights Agent과 공동 작업합니다.
+- **에이전트 응답 구조**: 추론(논리 설명), 분석 요약(주요 사항 강조 표시), 문제 세부 정보(문제 설명) 및 권장 사항(다음 단계 제안).
 
 ### **범위를 벗어남**
 
@@ -92,6 +102,10 @@ Journey Agent Analyze는 다음 기능을 지원합니다.
 
 - &quot;X개 이상의 여정에서 사용되는 대상자는 무엇입니까?&quot;
 - &quot;[대상 이름] 대상을 사용하는 모든 여정을 나열합니다.&quot;
+
+### 폴아웃 분석
+
+
 
 ### 충돌 분석 프롬프트
 
