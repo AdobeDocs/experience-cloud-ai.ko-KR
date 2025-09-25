@@ -1,7 +1,7 @@
 ---
 title: Experience Cloud 애플리케이션의 AI
 description: Experience Cloud 애플리케이션이 생성형 AI(GenAI), AI 어시스턴트 및 에이전틱 AI를 어떻게 사용하는지 알아봅니다.
-source-git-commit: b5649a893afc212a826b1ec2acb5ee2957caa03d
+source-git-commit: 06d80a7166dd9506cec570a79ed5eba4c2b5fe3c
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 3%
@@ -107,3 +107,4 @@ AI Assistant는 다음과 같은 기능을 하며 개인 정보 보호, 보안 �
 - 모든 문제 또는 부정확성에 대한 피드백 제출
 
 이 안내서에서는 기본 상호 작용에서 고급 에이전트 오케스트레이션 및 전문 워크플로우에 이르기까지 Experience Cloud 애플리케이션 전반에서 AI 기능을 효과적으로 사용하는 데 필요한 모든 사항을 제공합니다.
+
