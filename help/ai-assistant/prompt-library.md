@@ -1,10 +1,10 @@
 ---
 title: AI Assistant 프롬프트 라이브러리
 description: AI Assistant를 쿼리할 때 사용할 수 있는 다양한 종류의 프롬프트 및 프롬프트 패턴에 대해 알아봅니다.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -72,14 +72,14 @@ AI Assistant에서 사용할 수 있는 다양한 유형의 프롬프트에 대�
 - &quot;보유한 라이브 여정은 몇 개입니까?&quot;
 - &quot;모든 예약된 반복 여정 및 예상 실행 시간 목록을 제공합니다.&quot;
 
-### 대상 및 여정 통찰력
+### 대상자 및 여정 인사이트
 
 - &quot;X개 이상의 여정에서 사용되는 대상자는 무엇입니까?&quot;
 - &quot;{AUDIENCE_NAME} 대상을 사용하는 모든 여정을 나열합니다.&quot;
 
 ### 충돌 분석 프롬프트
 
-이러한 프롬프트를 사용하여 예약 및 대상 중복을 포함하여 여정 간 잠재적 충돌을 분석하십시오.
+다음 프롬프트를 사용하여 일정 및 대상자 오버랩을 포함한 여정 간의 잠재적 충돌을 분석합니다.
 
 +++목록을 보려면 선택
 
