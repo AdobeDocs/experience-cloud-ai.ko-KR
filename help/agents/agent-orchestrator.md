@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Platform Agent Orchestrator
 description: Adobe Experience Platform Agent Orchestrator에 대해 알아봅니다.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 2%
@@ -37,10 +37,10 @@ AI Assistant는 Adobe 애플리케이션에서 워크플로를 가속화하는 �
 | 에이전트 | 세부 사항 | 지원되는 애플리케이션 |
 | --- | --- | --- |
 | [Audience Agent](audience.md) | Audience Agent을 사용하면 중요한 대상 크기 변경 감지, 중복 대상 감지, 대상 인벤토리 탐색 및 대상 크기 검색을 포함하여 대상에 대한 인사이트를 볼 수 있습니다. | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
-| [Data Insights Agent](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Customer Journey Analytics의 AI Assistant에서 액세스할 수 있는 Data Insights Agent은 데이터에 대한 질문에 빠르고 효율적으로 답변할 수 있는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축합니다. | Customer Journey Analytics |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Customer Journey Analytics의 AI Assistant에서 액세스할 수 있는 Data Insights Agent은 데이터에 대한 질문에 빠르고 효율적으로 답변할 수 있는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축합니다. | Customer Journey Analytics |
 | 실험용 에이전트 | 실험 에이전트는 실험 결과를 분석하고, 영향을 예측하고, 새로운 실험을 제안하여 팀이 더 빠르게 학습할 수 있도록 돕습니다. 과거 및 활성 실험을 중앙 집중화하여 이미 학습한 내용을 기반으로 하며, 차이를 파악하고, 다음에 테스트할 내용을 우선 지정할 수 있습니다. | Adobe Journey Optimizer Experimentation Accelerator |
 | [Journey Agent](./ajo-agent-analyze.md) | Journey Agent을 사용하면 Adobe Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 만들고, 분석하고, 최적화할 수 있습니다. Journey Agent을 사용하면 여정을 신속하게 구축하고, 일정 또는 대상 충돌을 감지하고 해결하고, 성과 및 중단점을 분석하고, 향후 캠페인을 위해 복제할 최고 성능의 여정을 식별할 수 있습니다. 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다. | Adobe Journey Optimizer |
-| [제품 지원 에이전트](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/new-features/customer-support) | 제품 지원 에이전트는 워크플로우를 종료하지 않고 Adobe Experience Platform 기능 및 응용 프로그램의 문제를 해결하는 데 도움이 되는 셀프서비스 디버깅 및 문제 해결 기능입니다. 지원 관리자는 AI Assistant 상호 작용의 컨텍스트가 있는 고객 지원 티켓을 생성할 수 있으며 AI Assistant를 통해 티켓 업데이트를 확인할 수 있습니다. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [제품 지원 에이전트](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 제품 지원 에이전트는 워크플로우를 종료하지 않고 Adobe Experience Platform 기능 및 응용 프로그램의 문제를 해결하는 데 도움이 되는 셀프서비스 디버깅 및 문제 해결 기능입니다. 지원 관리자는 AI Assistant 상호 작용의 컨텍스트가 있는 고객 지원 티켓을 생성할 수 있으며 AI Assistant를 통해 티켓 업데이트를 확인할 수 있습니다. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 ### 기술 자료 {#knowledge-base}
 
@@ -54,10 +54,11 @@ AI Assistant 대화 인터페이스에 액세스하고 하나 이상의 Experien
 
 * **Real-Time CDP** 및 **Adobe Journey Optimizer**: 관리자가 AI Assistant에 액세스할 수 있도록 **AI Assistant 사용** 권한을 부여해야 합니다. 또한 관리자는 사용자가 AI Assistant에서 Operational Insights 질문을 할 수 있도록 **View Operational Insights** 권한을 부여해야 합니다. 두 권한은 모두 관리자가 권한 UI에서 설정합니다.
 
-* **Customer Journey Analytics**: 관리자가 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control)를 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다. 이를 통해 제품 지식 및 데이터 통찰력에 대한 질문을 할 수 있습니다.
+* **Customer Journey Analytics**: 관리자가 [Customer Journey Analytics 액세스 제어](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)를 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다. 이를 통해 제품 지식 및 데이터 통찰력에 대한 질문을 할 수 있습니다.
 
 >[!NOTE]
 >
 >Customer Journey Analytics에서는 Operational Insights 질문을 사용할 수 없으므로 추가 권한이 적용되지 않습니다.
 
-* **Adobe Experience Manager**: 관리자가 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다.
+* **Adobe Experience Manager**: 관리자가 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)을 통해 AI Assistant에 액세스할 수 있는 권한을 부여해야 합니다.
+

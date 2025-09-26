@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Audience Agent을 사용하여 대상을 만들고, 대상 변경 사항을 보고, 중복 대상을 감지하고, 대상 통찰력을 보는 방법에 대해 알아봅니다.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -164,3 +164,4 @@ Audience Agent은 다음 기능을 지원하지 않습니다. **현재**
 ## 다음 단계
 
 이 안내서를 읽고 나면 Audience Agent과 이 안내서가 지원하는 기능을 더 잘 이해할 수 있습니다. Adobe Experience Platform의 에이전트에 대한 자세한 내용은 [Agent Orchestrator 개요](./agent-orchestrator.md)를 참조하십시오.
+

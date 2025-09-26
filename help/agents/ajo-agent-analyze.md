@@ -4,7 +4,7 @@ description: 사용자가 마케팅 여정을 분석하고, 문제를 감지하�
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 38%
@@ -158,3 +158,4 @@ Journey 에이전트 분석의 효과를 극대화하려면 다음 모범 사례
 - **명확한 목표 정의**: 여정을 분석하기 전에 명확한 목표(예: 유지율 향상, 전환율 증가)를 설정합니다.
 - **정기적 모니터링**: 여정 성과를 정기적으로 검토하여 트렌드 및 예외 항목을 파악합니다.
 - **세분화 최적화**: 피로를 막고 참여도를 극대화할 수 있도록 대상자 세분화를 균형 있게 조정합니다.
+

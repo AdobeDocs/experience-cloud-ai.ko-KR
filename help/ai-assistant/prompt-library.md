@@ -1,7 +1,7 @@
 ---
 title: AI Assistant 프롬프트 라이브러리
 description: AI Assistant를 쿼리할 때 사용할 수 있는 다양한 종류의 프롬프트 및 프롬프트 패턴에 대해 알아봅니다.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 3%
@@ -133,3 +133,4 @@ AI Assistant에서 사용할 수 있는 다양한 유형의 프롬프트에 대�
 
 - &quot;내 사건 E-12345에 대한 최신 소식은 무엇입니까?&quot;
 - &quot;티켓 E-67890에 대한 최신 정보는 무엇입니까?&quot;
+

@@ -1,7 +1,7 @@
 ---
 title: 법적 고지 사항 - 개인 데이터, 언어 지원 및 응답 확인
 description: AI Assistant 사용 시 개인 데이터, 언어 지원 및 응답 확인과 관련된 법적 면책조항에 대해 알아봅니다.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -25,3 +25,4 @@ AI Assistant는 현재 영어로만 지원됩니다. 영어가 아닌 입력은 
 ## 응답 확인 {#verifying-responses}
 
 언어 모델은 실수를 할 수 있으므로 답변을 확인하는 것이 중요합니다. 항상 소스를 확인하여 SQL 논리가 올바른지 확인하고 사용 사례에 적합한 설명서를 참조했는지 확인하십시오. AI 비서가 제공하는 추론 단계 및 설명을 검토하여 해당 답변이 어떻게 도달했는지 파악합니다. 잘못된 부분이 있으면 피드백을 제출해 주세요.
+
