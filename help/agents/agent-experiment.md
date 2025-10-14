@@ -1,11 +1,9 @@
 ---
 title: 실험용 에이전트
 description: 실험 에이전트 사용 방법 알아보기
-hide: true
-hidefromtoc: true
-source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
+source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 2%
 >
 >**실험 보기**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 실험에 대한 인사이트를 볼 수 있습니다.
 >
->**실험 메타데이터 관리**: 권한을 부여하려면 실험 에이전트를 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
+>**실험 메타데이터 관리**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
 
 ## 개요
 
