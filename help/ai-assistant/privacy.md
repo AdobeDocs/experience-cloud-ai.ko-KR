@@ -16,13 +16,13 @@ AI Assistant에서 기대할 수 있는 고객 신뢰 중심 기능에 대해 �
 
 * 현재 AI Assistant는 교육 목적으로도 개인 데이터를 사용하지 않습니다.
 * AI 어시스턴트는 소비자 데이터를 인식하지 못합니다.
-* 기존의 모든 [액세스 제어](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) 정책은 AI Assistant에 의해 부여됩니다.
+* 기존의 모든 [액세스 제어](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home) 정책은 AI Assistant에 의해 부여됩니다.
 
    * 새로운 속성 기반 액세스 제어 정책은 최대 24시간 및 amp;ast;
 
 * AI Assistant와 상호 작용하려면 명시적인 권한이 있어야 합니다.
 
-   * [권한 UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse)를 사용하여 Experience Platform 및 Journey Optimizer에 대한 권한을 다르게 설정할 수 있으며 [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse)을 사용하여 Customer Journey Analytics에 대한 권한을 할당할 수 있습니다.
+   * [권한 UI](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/browse)를 사용하여 Experience Platform 및 Journey Optimizer에 대한 권한을 다르게 설정할 수 있으며 [Admin Console](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/browse)을 사용하여 Customer Journey Analytics에 대한 권한을 할당할 수 있습니다.
    * 권한은 세분화되며 샌드박스 관리자는 다양한 질문 카테고리(AI Assistant를 통한 제품 지식 기반 질문 또는 운영 통찰력에 대한 질문)를 물을 수 있는 사용자를 구성할 수 있습니다.
 
 * AI Assistant는 Adobe Experience Platform Healthcare Shield와 함께 사용할 때 HIPAA에 대비하는 기능입니다.
