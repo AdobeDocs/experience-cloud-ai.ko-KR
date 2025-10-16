@@ -4,7 +4,7 @@ description: Experience Cloud 애플리케이션이 생성형 AI(GenAI), AI 어�
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
@@ -14,7 +14,7 @@ Adobe Experience Cloud 애플리케이션 전반에 걸친 AI 기능에 대한 �
 
 ## 이 안내서에 포함된 사항
 
-### AI Assistant
+### AI 어시스턴트
 
 [AI Assistant](./ai-assistant/ai-assistant-ui.md)는 생산성을 높이고 Adobe Experience Platform 기반 응용 프로그램에서 작업을 재정의하는 지능형 대화식 생성 AI 도구입니다. 사용자는 자연어 프롬프트를 통해 제품 지식을 얻고 문제를 해결하며 운영 통찰력을 찾을 수 있습니다. AI Assistant를 사용하여 Adobe Experience Platform 에이전트 및 기타 AI 기능에 액세스할 수도 있습니다.
 
@@ -28,7 +28,7 @@ Adobe Experience Cloud 애플리케이션 전반에 걸친 AI 기능에 대한 �
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md)은(는) Adobe Experience Platform의 새로운 에이전트 계층입니다. 플랫폼의 풍부한 데이터와 고객 지식을 활용하도록 설계된 Experience Platform Agent Orchestrator은 특별히 설계된 전문 Adobe Experience Platform 에이전트 뒤에 숨겨진 정보와 추론을 강화하여 복잡한 의사 결정 및 문제 해결 작업을 사람의 감독 하에 신속하고 규모에 맞게 실행할 수 있도록 합니다. AI 어시스턴트와 같은 대화 인터페이스에서 자연어를 통해 질문을 하거나 도움을 요청하면 Agent Orchestrator이 전문 에이전트에게 자동으로 전화를 걸어 정확한 답변을 얻을 수 있다. Agent Orchestrator은 대화 기록을 기억하여, 맥락을 반복하지 않고 자연스럽게 이전 질문을 기반으로 할 수 있으며, 여러 에이전트의 통찰력을 결합하여 명확하고 통합된 응답을 제공합니다.
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md)은(는) Adobe Experience Platform의 새로운 에이전트 계층입니다. 플랫폼의 풍부한 데이터 및 고객 지식을 활용하도록 설계된 Experience Platform Agent Orchestrator는 목적에 맞게 제작된 전문 Adobe Experience Platform 에이전트의 인텔리전스 및 논리를 강화하여, 사람의 감독 하에 복잡한 의사 결정 및 문제 해결 작업을 빠르고 대규모로 실행할 수 있도록 지원합니다. AI 어시스턴트와 같은 대화형 인터페이스에서 자연어를 통해 질문하거나 도움을 요청하면 Agent Orchestrator가 자동으로 전문 에이전트를 호출하여 정확한 답변을 얻을 수 있습니다. Agent Orchestrator은 대화 기록을 기억하여, 맥락을 반복하지 않고 자연스럽게 이전 질문을 기반으로 할 수 있으며, 여러 에이전트의 통찰력을 결합하여 명확하고 통합된 응답을 제공합니다.
 
 **핵심 구성 요소:**
 
@@ -38,7 +38,7 @@ Adobe Experience Cloud 애플리케이션 전반에 걸친 AI 기능에 대한 �
 
 ### 전문 에이전트
 
-#### Audience Agent
+#### Audience 에이전트
 
 다음과 같은 대상에 대한 통찰력을 제공합니다.
 
@@ -81,7 +81,7 @@ AI Assistant 및 Experience Platform 에이전트를 사용하려면 Adobe 관�
 - **Customer Journey Analytics**: Customer Journey Analytics 액세스 제어를 통해 제품 지식 및 데이터 인사이트 질문에 대한 액세스
 - **Adobe Experience Manager**: Adobe Admin Console을 통해 액세스
 
-### 개인 정보 보호 및 보안
+### 개인정보보호 및 보안
 
 AI Assistant는 다음과 같은 기능을 하며 개인 정보 보호, 보안 및 거버넌스를 기반으로 구축됩니다.
 
@@ -91,7 +91,7 @@ AI Assistant는 다음과 같은 기능을 하며 개인 정보 보호, 보안 �
 - 상호 작용 로그에 대한 30일 보존 정책
 - 샌드박스별 데이터 격리
 
-## 우수 사례
+## 모범 사례
 
 - 대상 인사이트를 얻으려면 프롬프트에 **구체적으로 지정**
 - 출처 인용과 추론 설명을 사용하여 **응답 확인**

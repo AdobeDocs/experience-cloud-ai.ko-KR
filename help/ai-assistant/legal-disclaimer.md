@@ -4,7 +4,7 @@ description: AI Assistant 사용 시 개인 데이터, 언어 지원 및 응답 
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ Adobe Experience Platform AI Assistant 사용 시 개인 데이터, 언어 지�
 
 ## 개인 데이터 {#personal-data}
 
-AI Assistant는 자동화된 챗봇을 사용합니다. 이 자동화된 챗봇을 사용하면 사용자가 채팅 세션에서 제공하는 정보를 조직과 Adobe 간의 계약 약관에 따라 Adobe 및 Adobe을 대신하여 활동하는 서비스 공급자가 수집, 사용, 공개 및 유지하는 것에 대한 동의가 구성됩니다.
+AI 어시스턴트는 자동화된 챗봇을 사용합니다. 이 자동화된 챗봇을 사용하면 채팅 세션에서 입력하는 정보가 사용자의 조직과 Adobe 간의 계약 조건에 따라 Adobe 및 Adobe를 대리하여 행동하는 서비스 제공자에 의해 수집, 사용, 공개 및 보관된다는 데 동의하는 것으로 간주됩니다.
 
 여기에 개인 데이터를 포함해야 하는 경우 필요한 사항만 추가하고 사용 권한이 있는 경우에만 추가하십시오.
 

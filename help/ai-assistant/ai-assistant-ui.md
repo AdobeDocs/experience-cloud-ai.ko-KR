@@ -4,11 +4,11 @@ description: 사용자 인터페이스에서 AI Assistant에 액세스하고 사
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# AI Assistant
+# AI 어시스턴트
 
 AI Assistant는 Adobe Experience Platform 기반 애플리케이션에서 생산성을 높이고 작업을 재정의할 수 있는 지능형 대화식 생성 AI 도구입니다. AI Assistant를 사용하여 Adobe Experience Platform 에이전트 및 기타 AI 기능에 액세스할 수 있습니다.
 
@@ -16,7 +16,7 @@ AI Assistant를 사용하는 방법을 알려면 이 안내서를 참조하십�
 
 ![AI Assistant 홈 인터페이스를 전체 화면으로 표시합니다.](./images/ai-assistant/blank-home.png)
 
-## AI Assistant 액세스
+## AI 어시스턴트 액세스
 
 AI Assistant에 액세스하는 방법에는 여러 가지가 있습니다.
 
@@ -226,7 +226,7 @@ AI Assistant는 데이터 시각화에 대해 여러 그래프 유형을 지원�
 
 >[!BEGINTABS]
 
->[!TAB 줄]
+>[!TAB Line]
 
 선 그래프를 보려면 **[!UICONTROL 속성]**&#x200B;을 선택한 다음 **[!UICONTROL 선]**&#x200B;을 선택하십시오.
 

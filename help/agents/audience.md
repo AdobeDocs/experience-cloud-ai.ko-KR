@@ -1,15 +1,15 @@
 ---
-title: Audience Agent
+title: Audience 에이전트
 description: Audience Agent을 사용하여 대상을 만들고, 대상 변경 사항을 보고, 중복 대상을 감지하고, 대상 통찰력을 보는 방법에 대해 알아봅니다.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Audience Agent
+# Audience 에이전트
 
 >[!AVAILABILITY]
 >

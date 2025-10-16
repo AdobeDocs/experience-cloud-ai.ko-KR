@@ -8,7 +8,7 @@ role: Admin,User,Developer,Leader
 source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 64%
+ht-degree: 74%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 64%
 # Experience Cloud의 AI {#experience-cloud-ai}
 
 - [Experience Cloud 애플리케이션의 AI](home.md)
-- AI Assistant {#ai-assistant}
+- AI 어시스턴트 {#ai-assistant}
    - [AI Assistant UI 안내서](./ai-assistant/ai-assistant-ui.md)
    - [프롬프트 라이브러리](./ai-assistant/prompt-library.md)
-   - [개인 정보 보호](./ai-assistant/privacy.md)
+   - [개인정보](./ai-assistant/privacy.md)
    - [법적 면책 조항](./ai-assistant/legal-disclaimer.md)
 - 에이전트 {#agents}
    - [Agent Orchestrator](./agents/agent-orchestrator.md)
-   - [Audience Agent](./agents/audience.md)
+   - [Audience 에이전트](./agents/audience.md)
    - [실험 에이전트](./agents/agent-experiment.md)
    - [Journey Agent](./agents/ajo-agent-analyze.md)
 

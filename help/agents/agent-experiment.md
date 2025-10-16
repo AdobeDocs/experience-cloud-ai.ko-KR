@@ -4,7 +4,7 @@ description: 실험 에이전트 사용 방법 알아보기
 source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -66,7 +66,7 @@ Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공
 
 * 성능
 * Insights
-* 영업 기회
+* 기회
 
 ### **범위 외**
 
