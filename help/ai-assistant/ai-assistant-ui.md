@@ -1,7 +1,7 @@
 ---
 title: AI 어시스턴트 UI 안내서
 description: 사용자 인터페이스에서 AI Assistant에 액세스하고 사용하는 방법을 알아봅니다.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 1%
@@ -15,6 +15,8 @@ AI Assistant는 Adobe Experience Platform 기반 애플리케이션에서 생산
 AI Assistant를 사용하는 방법을 알려면 이 안내서를 참조하십시오.
 
 ![AI Assistant 홈 인터페이스를 전체 화면으로 표시합니다.](./images/ai-assistant/blank-home.png)
+
+>[!SLIDE](agent-orchestrator-ui)
 
 ## AI 어시스턴트 액세스
 

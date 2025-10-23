@@ -1,7 +1,7 @@
 ---
 title: Audience 에이전트
 description: Audience Agent을 사용하여 대상을 만들고, 대상 변경 사항을 보고, 중복 대상을 감지하고, 대상 통찰력을 보는 방법에 대해 알아봅니다.
-source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
+source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 2%
@@ -20,6 +20,8 @@ ht-degree: 2%
 >**세그먼트 관리**: 사용 권한을 부여하려면 Audience Agent을 사용하여 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
 
 Audience Agent을 사용하면 중요한 대상 크기 변경 감지, 중복 대상 감지, 대상 인벤토리 탐색 및 대상 크기 검색을 포함하여 대상에 대한 인사이트를 볼 수 있습니다.
+
+>[!SLIDE](audience-agent-overview)
 
 ## 지원되는 사용 사례
 
