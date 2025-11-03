@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud 애플리케이션의 AI
 description: Experience Cloud 애플리케이션이 생성형 AI(GenAI), AI 어시스턴트 및 에이전틱 AI를 어떻게 사용하는지 알아봅니다.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 8c05562121071874002afd6d248f16186616da55
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '830'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ Audience Agent은 다음을 포함하여 대상에 대한 통찰력을 제공합
 - 대상 인벤토리를 살펴봅니다.
 - 대상 크기를 검색하는 중입니다.
 
+자세한 내용은 [Audience Agent 설명서](./agents/audience.md)를 참조하세요.
+
 #### Data Insights Agent
 
 Customer Journey Analytics, Data Insights Agent에서 사용할 수 있습니다.
@@ -56,13 +58,15 @@ Customer Journey Analytics, Data Insights Agent에서 사용할 수 있습니다
 - Analysis Workspace에서 관련 시각화를 구축합니다.
 - 데이터 보기 및 실제 데이터의 구성 요소를 사용합니다.
 
-#### Journey Agent
+#### 여정 분석 에이전트
 
-Adobe Journey Optimizer 사용자는 Journey Agent을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+여정 분석 에이전트를 사용하면 Adobe Journey Optimizer 사용자는 다음과 같은 작업을 수행할 수 있습니다.
 
 - 자연어를 사용하여 여정을 분석하고 최적화합니다.
 - 일정 또는 대상자 충돌을 감지하고 해결합니다.
 - 성능 및 드롭오프 지점을 분석합니다.
+
+자세한 내용은 [여정 분석 에이전트 설명서](./agents/ajo-agent-analyze.md)를 참조하십시오.
 
 #### 제품 지원 에이전트
 
@@ -71,6 +75,8 @@ Adobe Journey Optimizer 사용자는 Journey Agent을 사용하여 다음과 같
 - 워크플로우를 종료하지 않고 Adobe Experience Platform 기능 문제를 해결합니다.
 - AI Assistant 상호 작용에서 컨텍스트가 있는 지원 티켓을 만듭니다.
 - AI Assistant를 통해 티켓 업데이트를 확인합니다.
+
+자세한 내용은 [제품 지원 에이전트 설명서](./agents/product-support.md)를 참조하세요.
 
 ## 시작
 
