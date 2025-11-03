@@ -5,10 +5,10 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: Experience Cloud의 AI 어시스턴트에 대해 알아봅니다. Experience Cloud의 AI를 활용하여 제품 지식을 향상시키고 운영에 대한 인사이트를 얻습니다.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: 0161aca8c889654f61f081c2cad4850dd890cf53
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 71%
+source-wordcount: '80'
+ht-degree: 68%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 71%
 - 에이전트 {#agents}
    - [Agent Orchestrator](./agents/agent-orchestrator.md)
    - [Audience 에이전트](./agents/audience.md)
+   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
    - [실험 에이전트](./agents/agent-experiment.md)
    - [Journey Agent](./agents/ajo-agent-analyze.md)
    - [제품 지원 에이전트](./agents/product-support.md)
