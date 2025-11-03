@@ -3,7 +3,7 @@ description: Customer Journey Analytics에서 Data Insights Agent을 사용하�
 title: Customer Journey Analytics에서 Data Insights Agent을 사용하여 데이터 시각화
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: c29bac7450d29eda617dd712d7d5f55a0a2ca481
+source-git-commit: 0e366e182cfccf2c081f6e5689c02b650148a7b9
 workflow-type: tm+mt
 source-wordcount: '2497'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 >
 >Data Insights Agent은 제한된 기간 동안 적격 고객이 사용할 수 있습니다. Data Insights Agent에 대한 액세스는 2026년 2월 28일에 종료됩니다. 중단 없이 Data Insights Agent을 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Data Insights Agent 라이선스에 대해 자세히 알아보십시오.
 
-Customer Journey Analytics의 [AI Assistant](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)에서 액세스할 수 있는 Data Insights Agent은 데이터에 대한 질문에 빠르고 효율적으로 답변할 수 있는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축합니다.
+Customer Journey Analytics의 [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)에서 액세스할 수 있는 Data Insights Agent은 데이터에 대한 질문에 빠르고 효율적으로 답변할 수 있는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축합니다.
 
 Data Insights Agent을 사용하여 Analysis Workspace의 데이터 중심 질문에 답변하면 Analysis Workspace에서 시각화를 수동으로 구축하고 데이터 보기 구성 요소에 익숙해지는 데 드는 시간을 크게 절약할 수 있습니다.
 
@@ -52,7 +52,8 @@ AI Assistant의 ![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
 
 * **권한**: 사용자가 Data Insights Agent에 액세스하려면 [!UICONTROL Adobe Admin Console]에서 필요한 권한을 부여해야 합니다.
 
-  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 완료해야 합니다.
+  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 완료해야 합니다.
+
    1. **[!UICONTROL Admin Console]**&#x200B;에서 **[!UICONTROL 제품]** 탭을 선택하여 **[!UICONTROL 모든 제품 및 서비스]** 페이지를 봅니다.
    1. **[!UICONTROL Customer Journey Analytics]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL 제품 프로필]** 탭에서 [!UICONTROL AI Assistant: 제품 기술 자료]에 대한 액세스 권한을 제공할 제품 프로필의 제목을 선택합니다.
@@ -70,7 +71,7 @@ AI Assistant의 ![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
 
    1. **[!UICONTROL 저장]**&#x200B;을 선택하여 권한을 저장합니다.
 
-  액세스 제어에 대한 자세한 내용은 [액세스 제어](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#access-control)를 참조하십시오.
+  액세스 제어에 대한 자세한 내용은 [액세스 제어](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)를 참조하십시오.
 
 * **데이터 보기 액세스**: Data Insights Agent에 대해 데이터 보기를 사용하도록 설정해야 합니다.
 
@@ -83,7 +84,6 @@ AI Assistant의 ![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
   Data Insights Agent에 대한 데이터 보기를 활성화하려면 다음을 수행하십시오.
 
    1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
-
    1. Data Insights Agent에 사용할 데이터 보기를 하나 이상 선택한 다음 **[!UICONTROL Data Insights Agent에 사용]**&#x200B;을 선택합니다.
 
       ![Data Insights Agent에 대한 데이터 보기 사용](images/cja-agent/data-view-enable-dia.png)
@@ -91,7 +91,6 @@ AI Assistant의 ![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
   IMS 조직에서 Data Insights Agent에 대해 활성화된 데이터 보기 수를 보려면 다음을 수행하십시오.
 
    1. Customer Journey Analytics에서 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 보기]**&#x200B;를 선택합니다.
-
    1. **[!UICONTROL Data Insights Agent]** 열 맨 위에 있는 정보 아이콘을 선택합니다.
 
       ![Data Insights Agent 정보 아이콘](images/cja-agent/data-insights-agent-tooltip.png)
@@ -99,26 +98,21 @@ AI Assistant의 ![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
 ## AI Assistant에서 Data Insights Agent 액세스
 
 1. [experience.adobe.com](https://experience.adobe.com/)&#x200B;(으)로 이동하여 Adobe ID으로 로그인합니다.
-
-2. Experience Cloud 홈에서 **Customer Journey Analytics**&#x200B;을(를) 선택합니다.
-
-3. 새 빈 프로젝트를 열려면 프로젝트 페이지 상단의 배너에서 **[!UICONTROL 빈 프로젝트]**&#x200B;을(를) 선택하십시오.
-
-4. 패널에 대해 선택한 데이터 보기가 [Customer Journey Analytics에서 Data Insights Agent에 대한 액세스 관리](#manage-access-to-data-insights-agent-in-customer-journey-analytics)에 설명된 대로 Data Insights Agent에서 사용할 수 있도록 설정된 데이터 보기인지 확인하십시오.
-
-5. 페이지의 오른쪽 상단 영역에서 AI Assistant 채팅 아이콘을 선택합니다.
+1. Experience Cloud 홈에서 **Customer Journey Analytics**&#x200B;을(를) 선택합니다.
+1. 새 빈 프로젝트를 열려면 프로젝트 페이지 상단의 배너에서 **[!UICONTROL 빈 프로젝트]**&#x200B;을(를) 선택하십시오.
+1. 패널에 대해 선택한 데이터 보기가 [Customer Journey Analytics에서 Data Insights Agent에 대한 액세스 관리](#manage-access-to-data-insights-agent-in-customer-journey-analytics)에 설명된 대로 Data Insights Agent에서 사용할 수 있도록 설정된 데이터 보기인지 확인하십시오.
+1. 페이지의 오른쪽 상단 영역에서 AI Assistant 채팅 아이콘을 선택합니다.
 
    채팅 아이콘이 보이지 않는 경우 관리자에게 문의하여 Admin Console에서 다음 기능을 활성화하십시오.
 
    * 보고 도구: **[!UICONTROL AI 길잡이: 제품 지식]**
-
    * 데이터 보기 도구: **[!UICONTROL Data Insights Agent]**
 
    자세한 내용은 [Customer Journey Analytics에서 Data Insights Agent 액세스 관리](#manage-access-to-data-insights-agent-in-customer-journey-analytics)를 참조하십시오.
 
    ![AI 길잡이 아이콘](images/cja-agent/ai-asst-icon.png)
 
-6. 페이지 하단의 **[!UICONTROL Customer Journey Analytics에 대해 묻기]** 대화 상자에서 Data Insights Agent을 사용하여 데이터 시각화 질문을 합니다.
+1. 페이지 하단의 **[!UICONTROL Customer Journey Analytics에 대해 묻기]** 대화 상자에서 Data Insights Agent을 사용하여 데이터 시각화 질문을 합니다.
 
    자세한 내용은 다음 예를 참조하십시오.
 
@@ -192,7 +186,6 @@ Agent Orchestrator은 요청을 해석하고 필요한 전문 에이전트를 �
 | 연간 월별 구매 비율 | 도넛 |
 | [개월]의 총 이익 | 요약 번호<p>특정 시간 범위 동안 지표의 &quot;합계&quot;를 요청하려면 요약 번호 시각화를 반환해야 합니다. |
 
-
 ## 프롬프트 우수 사례
 
 Data Insights Agent은 각 사용자 프롬프트에서 제공하는 컨텍스트를 처리하고 자유 형식 테이블에서 가장 적절한 시각화 및 구성 요소로 지능적으로 응답하려고 합니다.
@@ -261,8 +254,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[데이터 사전](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[계산된 지표 승인](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[세그먼트 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/segments/seg-share)
->
+>[구성 요소 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[데이터 사전](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[계산된 지표 승인](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[세그먼트 공유](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
