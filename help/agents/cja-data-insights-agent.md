@@ -16,7 +16,7 @@ ht-degree: 1%
 >
 >Data Insights Agent은 제한된 기간 동안 적격 고객이 사용할 수 있습니다. Data Insights Agent에 대한 액세스는 2026년 2월 28일까지 가능합니다. 중단 없이 Data Insights Agent을 계속 사용하려면 Adobe 계정 담당자에게 문의하여 Adobe Experience Platform Agent Orchestrator 라이선스에 대해 자세히 알아보십시오.
 
-Customer Journey Analytics의 [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)에서 액세스할 수 있는 Data Insights Agent은 데이터에 대한 질문에 빠르고 효율적으로 답변할 수 있는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축합니다.
+Customer Journey Analytics의 [AI Assistant](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)에서 액세스할 수 있는 Data Insights Agent은 데이터에 대한 질문에 빠르고 효율적으로 답변할 수 있는 생성 AI 대화 에이전트입니다. 데이터 보기의 구성 요소를 사용하고 실제 데이터를 사용하여 Analysis Workspace에서 관련 시각화를 구축합니다.
 
 Data Insights Agent을 사용하여 Analysis Workspace의 데이터 중심 질문에 답변하면 Analysis Workspace에서 시각화를 수동으로 구축하고 데이터 보기 구성 요소에 익숙해지는 데 드는 시간을 크게 절약할 수 있습니다.
 
@@ -52,7 +52,7 @@ AI Assistant의 ![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
 
 * **권한**: 사용자가 Data Insights Agent에 액세스하려면 [!UICONTROL Adobe Admin Console]에서 필요한 권한을 부여해야 합니다.
 
-  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 완료해야 합니다.
+  권한을 부여하려면 [제품 프로필 관리자](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)가 [!UICONTROL Admin Console]에서 다음 단계를 완료해야 합니다.
 
    1. **[!UICONTROL Admin Console]**&#x200B;에서 **[!UICONTROL 제품]** 탭을 선택하여 **[!UICONTROL 모든 제품 및 서비스]** 페이지를 봅니다.
    1. **[!UICONTROL Customer Journey Analytics]**&#x200B;을(를) 선택합니다.
@@ -71,7 +71,7 @@ AI Assistant의 ![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
 
    1. **[!UICONTROL 저장]**&#x200B;을 선택하여 권한을 저장합니다.
 
-  액세스 제어에 대한 자세한 내용은 [액세스 제어](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)를 참조하십시오.
+  액세스 제어에 대한 자세한 내용은 [액세스 제어](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#access-control)를 참조하십시오.
 
 * **데이터 보기 액세스**: Data Insights Agent에 대해 데이터 보기를 사용하도록 설정해야 합니다.
 
@@ -254,7 +254,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[구성 요소 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[데이터 사전](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[계산된 지표 승인](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[세그먼트 공유](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[데이터 사전](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[계산된 지표 승인](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[세그먼트 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/segments/seg-share)
