@@ -1,9 +1,9 @@
 ---
 title: 실험용 에이전트
 description: 실험 에이전트 사용 방법 알아보기
-source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
+source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '535'
 ht-degree: 3%
 
 ---
@@ -12,15 +12,21 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->실험 에이전트는 AI Assistant에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 그러나 실험 에이전트 기능을 완전히 사용하려면 다음 권한이 필요합니다.
+>실험 에이전트는 Journey Optimizer Experimentation Accelerator의 유료 라이선스를 구입한 모든 고객이 사용할 수 있으며 Adobe Target 또는 Adobe Journey Optimizer 중 하나와 원활하게 통합됩니다.
 >
->**실험 보기**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 실험에 대한 인사이트를 볼 수 있습니다.
->
->**실험 메타데이터 관리**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
+>[Journey Optimizer Experimentation Accelerator에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/overview)
 
 ## 개요
 
 **실험 에이전트**&#x200B;는 웹 사이트, 이메일, 푸시 메시지 및 응용 프로그램에서 디지털 실험을 실행하고 관리하는 방법을 현대화한 AI 기반 도구입니다. Adobe Experience Platform AI 플랫폼과 실험 도구를 기반으로 구축된 **실험 에이전트**&#x200B;는 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여 무엇이 작동하고, 무엇이 작동하지 않았으며, 다음 실험이 어디서 수행되는지 강조 표시할 수 있도록 지원합니다.
+
+실험 에이전트 기능을 완전히 사용하려면 다음 권한을 따르십시오.
+
+* **실험 보기**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 실험에 대한 인사이트를 볼 수 있습니다.
+
+* **실험 메타데이터 관리**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
+
+➡️ [Journey Optimizer Experimentation Accelerator 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공합니다.
 
