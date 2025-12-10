@@ -210,7 +210,7 @@ Audience Agent으로 대상자를 만들면 AI Assistant가 계획을 안내합�
 homeAddress.state.equals("California", false)
 ```
 
-PQL에 대한 자세한 내용은 [PQL 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)를 참조하십시오.
+PQL에 대한 자세한 내용은 [PQL 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/pql/overview)를 참조하십시오.
 
 +++
 
