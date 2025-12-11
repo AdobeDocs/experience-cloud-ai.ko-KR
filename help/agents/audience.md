@@ -1,9 +1,9 @@
 ---
 title: Audience 에이전트
 description: Audience Agent을 사용하여 대상을 만들고, 대상 변경 사항을 보고, 중복 대상을 감지하고, 대상 통찰력을 보는 방법에 대해 알아봅니다.
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1229'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Audience Agent은 다음 기능을 **현재**&#x200B;에서 지원하지 않습�
 
 ### 대상자 만들기
 
+>[!AVAILABILITY]
+>
+>Agent Orchestrator 탐색기 프로그램의 일부인 경우에만 대상 만들기 기술을 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터에 문의하십시오.
+
 Audience Agent으로 대상자를 만들면 AI Assistant가 계획을 안내합니다. 예를 들어 &quot;캘리포니아에 거주하는 사람들로 구성된 대상자를 만들 것&quot;을 요청할 수 있습니다. 그런 다음 AI Assistant는 대상자 생성을 위해 수행할 계획을 나열합니다.
 
 +++ 응답
@@ -210,7 +214,7 @@ Audience Agent으로 대상자를 만들면 AI Assistant가 계획을 안내합�
 homeAddress.state.equals("California", false)
 ```
 
-PQL에 대한 자세한 내용은 [PQL 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/pql/overview)를 참조하십시오.
+PQL에 대한 자세한 내용은 [PQL 개요](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)를 참조하십시오.
 
 +++
 
