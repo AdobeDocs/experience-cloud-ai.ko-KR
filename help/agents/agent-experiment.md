@@ -26,7 +26,7 @@ ht-degree: 3%
 
 * **실험 메타데이터 관리**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
 
-➡️ [Journey Optimizer Experimentation Accelerator 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Journey Optimizer Experimentation Accelerator 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공합니다.
 
