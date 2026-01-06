@@ -192,7 +192,7 @@ AI Assistant의 컨텍스트 설정 기능을 사용하여 AI Assistant가 쿼�
 
 *[!UICONTROL 다음에서 응답...]* 팝업 창이 나타납니다. 이 창을 사용하여 사용할 정보 원본을 구성한 다음 **[!UICONTROL 컨텍스트 설정]**&#x200B;을 선택합니다.
 
-| 정보 소스 | 설명 | 예 |
+| 정보 소스 | 설명 | 예시 |
 | --- | --- | --- |
 | 앱 | 쿼리와 관련된 Experience Cloud 애플리케이션. | Experience Platform, Journey Optimizer, Customer Journey Analytics 등 |
 | 샌드박스 | 쿼리와 관련된 데이터 세트 또는 정보가 포함된 샌드박스. | 프로덕션(VA7), 개발 |
