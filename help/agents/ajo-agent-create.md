@@ -4,10 +4,7 @@ description: Journey Agent 만들기 기술을 사용하여 Journey Optimizer의
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer
-feature: AI Assistant
-topic: Administration
-level: Beginner
-source-git-commit: 864002185f3745ca76180af192f616d1e5da0791
+source-git-commit: 037d9864f72610f745b336acf0cf1192b7f21aa0
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 1%
