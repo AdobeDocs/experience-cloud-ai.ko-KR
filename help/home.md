@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud 애플리케이션의 AI
 description: Experience Cloud 애플리케이션이 생성형 AI(GenAI), AI 어시스턴트 및 에이전틱 AI를 어떻게 사용하는지 알아봅니다.
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 13%
 
 ---
@@ -66,7 +66,7 @@ Customer Journey Analytics, Data Insights Agent에서 사용할 수 있습니다
 - 일정 또는 대상자 충돌을 감지하고 해결합니다.
 - 성능 및 드롭오프 지점을 분석합니다.
 
-자세한 내용은 [여정 분석 에이전트 설명서](./agents/ajo-agent-analyze.md)를 참조하십시오.
+자세한 내용은 [Journey Agent 설명서](./agents/ajo-agent.md)를 참조하세요.
 
 #### 제품 지원 에이전트
 
