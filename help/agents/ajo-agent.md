@@ -4,7 +4,7 @@ description: 사용자가 Journey Agent의 자연어 인터페이스를 사용�
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 18%
@@ -22,9 +22,7 @@ Journey Agent은 다음 두 가지 주요 기술로 구성됩니다.
 - **에이전트 만들기 여정**: 자연어 프롬프트를 통해 마케팅 여정을 빌드하고 구성합니다.
 - **에이전트 분석 여정**: 여정 분석, 문제 감지, 통찰력 발견 및 고객 참여 최적화
 
-&#x200B;---
-
-&#x200B;# 여정 만들기 에이전트: 스킬 개요 및 사용 안내서
+## 여정 만들기 에이전트: 스킬 개요 및 사용 안내서
 
 ## 개요
 
@@ -161,15 +159,13 @@ Journey Agent은 다음 두 가지 주요 기술로 구성됩니다.
 - **메시지 콘텐츠 계획**: 여정을 만들기 전에 메시징 전략을 정의하십시오.
 - **고객 경험 고려**: 고객 환경 설정을 준수하고 과도한 커뮤니케이션을 방지하는 여정 흐름을 디자인합니다.
 
-&#x200B;---
-
-&#x200B;# 여정 분석 에이전트: 스킬 개요 및 사용 안내서
+## 여정 분석 에이전트: 스킬 개요 및 사용 안내서
 
 ## 개요
 
 Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. Journey Agent을 통해 실무자는 신속하게 일정 및/또는 대상 충돌을 식별하고 해결하며 여정에서 사용자 포기 지점을 감지하고 통찰력 또는 권장 사항을 제공할 수 있습니다. 이를 통해 실무자는 데이터 기반의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
 
-자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/ko/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
+자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/en/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
 
 >[!AVAILABILITY]
 >
@@ -310,8 +306,6 @@ Journey 에이전트 분석의 효과를 극대화하려면 다음 모범 사례
 - **명확한 목표 정의**: 여정을 분석하기 전에 명확한 목표(예: 유지율 향상, 전환율 증가)를 설정합니다.
 - **정기적 모니터링**: 여정 성과를 정기적으로 검토하여 트렌드 및 예외 항목을 파악합니다.
 - **세분화 최적화**: 피로를 막고 참여도를 극대화할 수 있도록 대상자 세분화를 균형 있게 조정합니다.
-
-&#x200B;---
 
 ## 슬라이드 및 프레젠테이션
 
