@@ -1,7 +1,7 @@
 ---
 title: AI 어시스턴트 UI 안내서
 description: 사용자 인터페이스에서 AI Assistant에 액세스하고 사용하는 방법을 알아봅니다.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 1%
@@ -72,7 +72,7 @@ AI Assistant 인터페이스에는 사용자가 효과적으로 상호 작용하
 
 이 섹션에서는 AI Assistant 사용자 인터페이스의 주요 기능 및 탐색 옵션에 대한 개요를 제공합니다. AI 어시스턴트에 액세스하는 방법을 설명하고, 전체 화면과 레일 보기 모두에서 레이아웃과 컨트롤을 설명하며, 대화, 입력 기능, 자동 완성, 컨텍스트 설정, 검색 프롬프트 등의 주요 도구를 소개합니다. 다음 섹션에서는 이러한 기능을 사용하여 AI Assistant와 상호 작용하고 경험을 최대한 활용하는 방법에 대한 자세한 지침을 제공합니다.
 
-### 검색 프롬프트
+### 검색 프롬프트 {#discovery-prompts}
 
 AI Assistant의 검색 기능을 사용하여 AI Assistant가 지원하는 엔티티로 그룹화된 일반 주제 목록을 볼 수 있습니다. 시작 지점에 따라 검색 프롬프트가 다릅니다.
 
