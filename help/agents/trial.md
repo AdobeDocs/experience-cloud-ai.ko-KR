@@ -3,9 +3,9 @@ title: Adobe Experience Platform Agents 사용 제한 평가판
 description: Adobe Experience Platform 에이전트를 위한 무료 평가판에 대해 알아봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 79d7fc82d57187be21f013ab600e7f24fa7eb46a
+source-git-commit: d764d3f5ef2b5dcd18fd754298fae5e2b145805f
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 Adobe은 독자적인 판단에 따라 재판의 자격을 결정합니다. 현재 Adobe Experience Platform Agent Orchestrator 프로모션 라이선스나 Experience Platform Agents AI 크레딧 라이선스가 있거나 있었던 고객은 평가판을 받을 수 없습니다.
 
-적격 고객은 AI 크레딧 사용량 표에 나열된 Job 조합(Experience Cloud 애플리케이션에 대한 기존 라이선스에 따라 다름)에 사용할 최대 10,000개의 AI 크레딧에 대한 초기 일회성 권한을 받습니다. Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
+자격 있는 고객은 [AI 크레딧 사용량 표](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)에 나열된 작업(Experience Cloud 애플리케이션에 대한 기존 라이선스에 따라 다름) 조합에 사용할 최대 10,000개의 AI 크레딧에 대한 초기 일회성 권한을 받습니다. Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
 
 >[!IMPORTANT]
 >
