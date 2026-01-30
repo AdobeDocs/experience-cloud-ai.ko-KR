@@ -1,10 +1,10 @@
 ---
 title: Adobe Experience Platform Agents 사용 제한 평가판
 description: Adobe Experience Platform 에이전트를 위한 무료 평가판에 대해 알아봅니다.
-source-git-commit: a94ab9a30900e2d3a8db44994a1cb51a5f9361ff
+source-git-commit: 919abbc1a4919b46f6a9beec6f8e3dc71dc4edb7
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '1023'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Adobe은 독자적인 판단에 따라 재판의 자격을 결정합니다. 현재 Adobe Experience Platform Agent Orchestrator 프로모션 라이선스나 Experience Platform Agents AI 크레딧 라이선스가 있거나 있었던 고객은 평가판을 받을 수 없습니다.
 
-자격 있는 고객은 [AI 크레딧 사용량 표](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)에 나열된 작업(Experience Cloud 애플리케이션에 대한 기존 라이선스에 따라 다름) 조합에 사용할 최대 10,000개의 AI 크레딧에 대한 초기 일회성 권한을 받습니다. Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
+자격 있는 고객은 [AI 크레딧 사용량 표](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)에 나열된 작업(Experience Cloud 애플리케이션에 대한 기존 라이선스에 따라 다름) 조합에 사용할 최대 10,000개의 AI 크레딧에 대한 초기 일회성 권한을 받습니다. Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -42,6 +42,50 @@ AI 크레딧 10,000개의 초기 일회성 권한을 사용하거나 추가 AI �
 >[!TIP]
 >
 >도움 받기 - [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com)(으)로 요청을 보내세요.
+
+## 자주 묻는 질문 {#faq}
+
+Experience Platform 에이전트 사용 제한 평가판에 대한 FAQ에 대한 답변은 다음을 참조하십시오.
+
+### Adobe Experience Platform Agents 사용 제한 평가판이란 무엇입니까?
+
+Adobe Experience Platform 에이전트 사용 제한 평가판을 사용하면 적격 고객이 최대 10,000개의 AI 크레딧을 추가 비용 없이 특정 에이전트를 사용할 수 있습니다. 목표는 고객이 상업적인 결정을 내리기 전에 이러한 에이전트로부터 가치를 경험하기 위한 낮은 마찰, 낮은 위험 경로를 제공하는 것입니다.
+
+### 이 체험판에는 어떤 에이전트가 포함됩니까?
+
+평가판에 포함된 에이전트의 전체 목록을 보려면 [Experience Cloud의 Agentic AI](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/agentic-ai)에 대한 안내서를 읽어 보십시오.
+
+### 누가 이 재판에 참여할 수 있습니까?
+
+Adobe에서 적절한 지원을 제공할 수 있도록 단계적으로 특정 적격 Adobe Experience Cloud 고객에게 평가판을 배포하고 있습니다. 참여에 관심이 있는 경우 Adobe 계정 팀에 연락하여 상태를 확인하고 액세스 옵션에 대해 논의할 수 있습니다.
+
+### AI 크레딧은 얼마나 받아야 하며 해당 AI 크레딧이 사용될 때 어떻게 됩니까?
+
+적격 고객은 평가판에 대해 최대 10,000개의 AI 크레딧을 받으며, 이는 에이전트가 작업을 실행할 때 사용됩니다. 이러한 AI 크레딧은 체험판 활동 기간 동안만 존재하며 전체 10,000개의 AI 크레딧을 사용하기 전에 추가 AI 크레딧에 라이선스를 부여하는 경우 롤오버되지 않습니다. AI 신용 사용에 대한 자세한 내용은 [에이전트 작업 및 AI 신용 사용 안내서](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)를 참조하십시오.
+
+### 이거 값이 좀 나옵니까?
+
+체험판에는 추가 구매가 필요하지 않습니다. 유료 오퍼로의 자동 전환은 없습니다. 평가판 이후에도 에이전트를 계속 사용하려는 경우 Adobe 계정 팀이 사용자와 협력하여 유료 서비스로 전환합니다.
+
+### 누가 어떻게 사용법을 볼 수 있습니까?
+
+Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
+
+대시보드를 사용하여 AI 크레딧 사용 및 보고를 봅니다. 적절한 권한이 있는 관리자 및 사용자만 사용 정보를 볼 수 있습니다.
+
+### 재판이 끝나면 어떻게 되나요?
+
+최대 10,000개의 AI 크레딧에 대한 초기 일회성 권한을 사용하거나 추가 AI 크레딧에 라이선스를 부여하면 평가판이 종료됩니다.
+
+체험판이 종료되면 다음을 선택할 수 있습니다.
+
+- 앞으로 이동 안 함
+   - 그렇게 하면 평가판이 만료됩니다.
+   - 기존 Adobe 제품은 평가판을 전환하지 않아 페널티 없이 이전처럼 계속 작동합니다
+- 지속적인 에이전트 사용으로 이동
+   - Adobe 계정 팀과 협력하여 유료 서비스로 전환할 수 있습니다.
+
+체험판이 종료된 고객을 유료 고객으로 전환할 수 있는 자동 숨겨진 스위치가 없습니다.
 
 ## 추가 리소스
 
