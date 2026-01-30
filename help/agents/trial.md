@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Adobe은 독자적인 판단에 따라 재판의 자격을 결정합니다. 현재 Adobe Experience Platform Agent Orchestrator 프로모션 라이선스나 Experience Platform Agents AI 크레딧 라이선스가 있거나 있었던 고객은 평가판을 받을 수 없습니다.
 
-자격 있는 고객은 [AI 크레딧 사용량 표](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)에 나열된 작업(Experience Cloud 애플리케이션에 대한 기존 라이선스에 따라 다름) 조합에 사용할 최대 10,000개의 AI 크레딧에 대한 초기 일회성 권한을 받습니다. Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
+자격 있는 고객은 [AI 크레딧 사용량 표](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)에 나열된 작업(Experience Cloud 애플리케이션에 대한 기존 라이선스에 따라 다름) 조합에 사용할 최대 10,000개의 AI 크레딧에 대한 초기 일회성 권한을 받습니다. Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ Adobe에서 적절한 지원을 제공할 수 있도록 단계적으로 특정 �
 
 ### 누가 어떻게 사용법을 볼 수 있습니까?
 
-Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
+Adobe Experience Platform UI의 라이선스 사용 대시보드를 사용하여 AI 크레딧을 추적할 수 있습니다. 자세한 내용은 [라이선스 사용 대시보드 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/dashboards/guides/license-usage)를 참조하세요.
 
 대시보드를 사용하여 AI 크레딧 사용 및 보고를 봅니다. 적절한 권한이 있는 관리자 및 사용자만 사용 정보를 볼 수 있습니다.
 
