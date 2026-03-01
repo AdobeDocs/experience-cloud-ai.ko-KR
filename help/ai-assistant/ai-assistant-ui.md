@@ -1,10 +1,10 @@
 ---
 title: AI 어시스턴트 UI 안내서
-description: 사용자 인터페이스에서 AI Assistant에 액세스하고 사용하는 방법을 알아봅니다.
+description: 사용자 인터페이스에서 AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
 source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
