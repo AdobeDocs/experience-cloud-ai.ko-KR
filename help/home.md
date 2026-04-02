@@ -1,10 +1,10 @@
 ---
 title: Experience Cloud 애플리케이션의 AI
 description: Experience Cloud 애플리케이션이 생성형 AI(GenAI), AI 어시스턴트 및 에이전틱 AI를 어떻게 사용하는지 알아봅니다.
-source-git-commit: 73d63e310783310d0e6fb3d696ded7d4edb5bede
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 16%
+source-wordcount: '846'
+ht-degree: 17%
 
 ---
 
@@ -78,15 +78,17 @@ Customer Journey Analytics, Data Insights Agent에서 사용할 수 있습니다
 
 자세한 내용은 [제품 지원 에이전트 설명서](./agents/product-support.md)를 참조하세요.
 
-#### [!DNL Microsoft 365 Copilot]에 대한 Adobe Marketing Agent
+<!--
+#### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
 
-[!DNL Microsoft 365 Copilot]용 Adobe Marketing Agent을 사용하여 [!DNL Teams], [!DNL Word], [!DNL Powerpoint] 및 [!DNL Excel]과(와) 같은 [!DNL Microsoft 365] 앱에서 Experience Platform의 마케팅 인사이트를 검색합니다. 이 에이전트를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
+Use the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] to retrieve marketing insights from Experience Platform in [!DNL Microsoft 365] apps like [!DNL Teams], [!DNL Word], [!DNL Powerpoint], and [!DNL Excel]. With this agent, you can:
 
-- 데이터 기반의 더 빠른 마케팅 의사 결정
-- 도구 간 전환에 소요되는 시간 단축
-- 팀 전체에서 대상자 및 여정 통찰력에 대한 액세스를 간소화합니다.
+- Make faster, data-driven marketing decisions.
+- Reduce time spent switching between tools.
+- Simplify access to audience and journey insights across teams.
 
-자세한 내용은 [Adobe Marketing Agent 설명서](./agents/ama-ms.md)를 참조하세요.
+Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more information.
+-->
 
 ## 시작
 
