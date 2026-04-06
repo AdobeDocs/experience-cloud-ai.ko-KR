@@ -2,17 +2,16 @@
 title: Data Engineering Agent
 description: Data Engineering Agent을 사용하는 방법을 알아봅니다.
 hide: true
-hidefromtoc: true
-source-git-commit: 12c61f88b358fc8c357ec4fa373493d6b70d5a06
+source-git-commit: 707fc108185d37c122a297e3ee1ebd06b41d053c
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
 
 # Data Engineering Agent
 
-&lt;!— 초안입니다 —>
+&lt;!—!—— 초안입니다. 이제 HIDEFROMTOC가 문서가 아닌 TOC.md 파일에서 제어됩니다. --->
 
 Data Engineering Agent은 Adobe Experience Platform의 데이터 팀을 위한 Agent Orchestrator 기반 AI 기반 보조 파일럿입니다. 이 에이전트는 데이터 모델링, 온보딩, SQL 데이터 준비, 거버넌스 및 라이프사이클 관리와 같은 전체 데이터 라이프사이클에서 과도한 작업을 처리하도록 설계되었습니다. Data Engineering Agent을 사용하면 엔지니어와 설계자가 데이터 품질이 향상되고 수동 작업이 줄어들어 더 빠르게 이동할 수 있습니다.
 
