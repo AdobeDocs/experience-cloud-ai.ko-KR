@@ -1,10 +1,14 @@
 ---
 title: 법적 고지 사항 - 개인 데이터, 언어 지원 및 응답 확인
 description: AI Assistant 사용 시 개인 데이터, 언어 지원 및 응답 확인과 관련된 법적 면책조항에 대해 알아봅니다.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+TQID: https://experienceleague.adobe.com/yfjRu87Nfi1tYchKcfUY79g-13A319iW6g8splURndw
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 22%
+source-wordcount: 232
+ht-degree: 0%
 
 ---
 
@@ -12,9 +16,9 @@ ht-degree: 22%
 
 Adobe Experience Platform AI Assistant 사용 시 개인 데이터, 언어 지원 및 응답 확인과 관련된 법적 고지 사항에 대한 정보는 이 문서를 참조하십시오.
 
-## 개인 데이터 {#personal-data}
+## 개인 정보 {#personal-data}
 
-AI 어시스턴트는 자동화된 챗봇을 사용합니다. 이 자동화된 챗봇을 사용하면 채팅 세션에서 입력하는 정보가 사용자의 조직과 Adobe 간의 계약 조건에 따라 Adobe 및 Adobe를 대리하여 행동하는 서비스 제공자에 의해 수집, 사용, 공개 및 보관된다는 데 동의하는 것으로 간주됩니다.
+AI Assistant는 자동화된 챗봇을 사용합니다. 이 자동화된 챗봇을 사용하면 사용자가 채팅 세션에서 제공하는 정보를 조직과 Adobe 간의 계약 약관에 따라 Adobe 및 Adobe을 대신하여 활동하는 서비스 공급자가 수집, 사용, 공개 및 유지하는 것에 대한 동의가 구성됩니다.
 
 여기에 개인 데이터를 포함해야 하는 경우 필요한 사항만 추가하고 사용 권한이 있는 경우에만 추가하십시오.
 
