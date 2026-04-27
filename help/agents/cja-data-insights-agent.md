@@ -71,7 +71,7 @@ The following parameters govern access to Data Insights Agent in Customer Journe
 
 * **Permissions**: Necessary permissions must be granted in the [!UICONTROL Adobe Admin Console] before users can access Data Insights Agent.
 
-  To grant permissions, a [product profile administrator](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) must complete the following steps in the [!UICONTROL Admin Console]:
+  To grant permissions, a [product profile administrator](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html) must complete the following steps in the [!UICONTROL Admin Console]:
    1. In the **[!UICONTROL Admin Console]**, select the **[!UICONTROL Products]** tab to view the **[!UICONTROL All products and services]** page.
    1. Select **[!UICONTROL Customer Journey Analytics]**.
    1. On the **[!UICONTROL Product Profiles]** tab, select the title of the product profile for which you want to provide access to [!UICONTROL AI Assistant: Product Knowledge].
@@ -89,7 +89,7 @@ The following parameters govern access to Data Insights Agent in Customer Journe
 
    1. Select **[!UICONTROL Save]** to save the permissions.
 
-  For additional information about access control, see [Access control](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
+  For additional information about access control, see [Access control](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Data view access**: Data views must be enabled for Data Insights Agent.
 
@@ -97,7 +97,7 @@ The following parameters govern access to Data Insights Agent in Customer Journe
   >
   >Consider the following when enabling data views:
   >* You can enable a maximum of 50 data views per IMS organization. If you enable more than 50 data views across all product profiles for a given organization, the Data Insights Agent will use the 50 most-used data views.
-  >  You can use the [info on the Data Insights Agent column in Data views](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) to view the number of data views that are enabled for Data Insights Agent in your IMS organization.
+  >  You can use the [info on the Data Insights Agent column in Data views](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) to view the number of data views that are enabled for Data Insights Agent in your IMS organization.
   >* The Data Insights Agent can reference the included data views sometime during the same day that you enable them.
 
   To enable data views for Data Insights Agent:
@@ -195,7 +195,7 @@ Adobe Experience Platform Agent Orchestrator을 사용하면 Adobe Journey Optim
 
 Agent Orchestrator은 요청을 해석하고 필요한 전문 에이전트를 결정하고 올바른 응답을 제공하도록 조정합니다. 다중 전환 상호 작용 간의 컨텍스트를 추적하므로 자연스럽게 이전 쿼리를 빌드할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)을 참조하세요.
+자세한 내용은 [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/kr/products/experience-platform/agent-orchestrator.html)을 참조하세요.
 
 ## 예제 데이터 시각화 프롬프트
 
@@ -285,7 +285,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[구성 요소 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[데이터 사전](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[계산된 지표 승인](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[세그먼트 공유](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[구성 요소 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[데이터 사전](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[계산된 지표 승인](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[세그먼트 공유](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/segments/seg-share)
