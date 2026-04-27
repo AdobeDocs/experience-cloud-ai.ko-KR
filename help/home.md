@@ -1,9 +1,23 @@
 ---
 title: Experience Cloud 애플리케이션의 AI
 description: Experience Cloud 애플리케이션이 생성형 AI(GenAI), AI 어시스턴트 및 에이전틱 AI를 어떻게 사용하는지 알아봅니다.
-source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
+TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 846
 ht-degree: 17%
 
 ---
@@ -52,31 +66,31 @@ Audience Agent은 다음을 포함하여 대상에 대한 통찰력을 제공합
 
 #### Data Insights Agent
 
-Customer Journey Analytics, Data Insights Agent에서 사용할 수 있습니다.
+Available in Customer Journey Analytics, the Data Insights Agent:
 
-- 자연어를 사용하여 데이터에 대한 질문에 답변합니다.
-- Analysis Workspace에서 관련 시각화를 구축합니다.
-- 데이터 보기 및 실제 데이터의 구성 요소를 사용합니다.
+- Answers questions about your data using natural language.
+- Builds relevant visualizations in Analysis Workspace.
+- Uses components from your dataview and actual data.
 
-#### 여정 분석 에이전트
+#### Journey Analyze Agent
 
-여정 분석 에이전트를 사용하면 Adobe Journey Optimizer 사용자는 다음과 같은 작업을 수행할 수 있습니다.
+The Journey Analyze Agent enables the Adobe Journey Optimizer users to:
 
-- 자연어를 사용하여 여정을 분석하고 최적화합니다.
-- 일정 또는 대상자 충돌을 감지하고 해결합니다.
-- 성능 및 드롭오프 지점을 분석합니다.
+- Analyze, and optimize journeys using natural language.
+- Detect and resolve schedule or audience conflicts.
+- Analyze performance and drop-off points.
 
-자세한 내용은 [Journey Agent 설명서](./agents/ajo-agent.md)를 참조하세요.
+Read the [Journey Agent documentation](./agents/ajo-agent.md) for more information.
 
 #### 제품 지원 에이전트
 
-셀프서비스 디버깅 및 문제 해결을 위해 제품 지원 에이전트를 사용합니다.
+Use the Product Support Agent for self-serve debugging and troubleshooting:
 
-- 워크플로우를 종료하지 않고 Adobe Experience Platform 기능 문제를 해결합니다.
-- AI Assistant 상호 작용에서 컨텍스트가 있는 지원 티켓을 만듭니다.
-- AI Assistant를 통해 티켓 업데이트를 확인합니다.
+- Troubleshoot Adobe Experience Platform features without leaving workflows.
+- Create support tickets with context from AI Assistant interactions.
+- Check ticket updates through AI Assistant.
 
-자세한 내용은 [제품 지원 에이전트 설명서](./agents/product-support.md)를 참조하세요.
+Read the [Product Support Agent documentation](./agents/product-support.md) for more information.
 
 <!--
 #### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
@@ -92,22 +106,22 @@ Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more info
 
 ## 시작
 
-### 액세스 요구 사항
+### Access requirements
 
-AI Assistant 및 Experience Platform 에이전트를 사용하려면 Adobe 관리자가 적절한 권한을 설정해야 합니다.
+To use AI Assistant and Experience Platform Agents, your Adobe Admin needs to set up the appropriate permissions:
 
-- Real-Time CDP 및 Adobe Journey Optimizer 내에서 AI Assistant를 사용하려면 운영 질문에 액세스할 수 있는 &quot;AI Assistant 활성화&quot; 권한과 &quot;운영 인사이트 보기&quot; 권한이 필요합니다.
-- Customer Journey Analytics의 AI Assistant에 대한 액세스는 Customer Journey Analytics 액세스 제어를 통해 관리되며, 이를 통해 제품 지식과 데이터 인사이트 질문을 모두 할 수 있습니다.
-- Adobe Experience Manager의 경우 Adobe Admin Console에 설정된 권한을 통해 AI Assistant에 액세스할 수 있습니다.
+- To use AI Assistant within Real-Time CDP and Adobe Journey Optimizer, you need the &quot;Enable AI Assistant&quot; permission, as well as the &quot;View Operational Insights&quot; permission to access operational questions.
+- Access to AI Assistant in Customer Journey Analytics is managed through Customer Journey Analytics Access Control, which allows you to ask both product knowledge and data insights questions.
+- For Adobe Experience Manager, you can access AI Assistant through permissions set in the Adobe Admin Console.
 
 ### 개인정보보호 및 보안
 
-AI Assistant는 다음과 같은 기능을 하며 개인 정보 보호, 보안 및 거버넌스를 기반으로 구축됩니다.
+AI Assistant is built with privacy, security, and governance at the forefront:
 
-- 교육에 사용되는 개인 데이터가 없습니다.
-- 기존의 모든 액세스 제어 정책이 적용됩니다.
-- Adobe Experience Platform Healthcare Shield와 함께 사용할 경우 HIPAA 지원.
-- 상호 작용 로그에 대한 30일 보존 정책.
+- No personal data is used for training.
+- All existing access control policies are honored.
+- HIPAA-ready when used with Adobe Experience Platform Healthcare Shield.
+- 30-day retention policy for interaction logs.
 - 샌드박스별 데이터 격리.
 
 ## 모범 사례

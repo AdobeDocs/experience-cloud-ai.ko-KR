@@ -1,30 +1,42 @@
 ---
-title: 실험용 에이전트
-description: 실험 에이전트 사용 방법 알아보기
-source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
+title: Experimentation Agent
+description: Experimentation Agent 사용 방법 알아보기
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 3%
+source-wordcount: 555
+ht-degree: 4%
 
 ---
 
-# 실험용 에이전트
+# Experimentation Agent
 
 >[!AVAILABILITY]
 >
->실험 에이전트는 Journey Optimizer Experimentation Accelerator의 유료 라이선스를 구입한 모든 고객이 사용할 수 있으며 Adobe Target 또는 Adobe Journey Optimizer 중 하나와 원활하게 통합됩니다.
+>Experimentation Agent은 Journey Optimizer Experimentation Accelerator의 유료 라이선스를 구입한 모든 고객이 사용할 수 있으며 Adobe Target 또는 Adobe Journey Optimizer과 원활하게 통합됩니다.
 >
 >[Journey Optimizer Experimentation Accelerator에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/overview)
 
 ## 개요
 
-**실험 에이전트**&#x200B;는 웹 사이트, 이메일, 푸시 메시지 및 응용 프로그램에서 디지털 실험을 실행하고 관리하는 방법을 현대화한 AI 기반 도구입니다. Adobe Experience Platform AI 플랫폼과 실험 도구를 기반으로 구축된 **실험 에이전트**&#x200B;는 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여 무엇이 작동하고, 무엇이 작동하지 않았으며, 다음 실험이 어디서 수행되는지 강조 표시할 수 있도록 지원합니다.
+**Experimentation Agent**&#x200B;은(는) 웹 사이트, 이메일, 푸시 메시지 및 애플리케이션에서 디지털 실험을 실행하고 관리할 수 있는 방법을 현대화한 AI 기반 도구입니다. Adobe Experience Platform AI 플랫폼과 실험 도구를 기반으로 구축된 **Experimentation Agent**&#x200B;은(는) 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여 무엇이 작동했는지, 무엇이 작동하지 않았는지, 다음 실험이 필요한 위치를 강조 표시할 수 있도록 해줍니다.
 
-실험 에이전트 기능을 완전히 사용하려면 다음 권한을 따르십시오.
+Experimentation Agent 기능을 완전히 사용하려면 다음 권한을 따르십시오.
 
-* **실험 보기**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 실험에 대한 인사이트를 볼 수 있습니다.
+* **실험 보기**: 이 권한을 사용하면 Experimentation Agent을 사용하여 AI Assistant에서 직접 실험에 대한 인사이트를 볼 수 있습니다.
 
-* **실험 메타데이터 관리**: 이 권한을 사용하면 실험 에이전트를 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
+* **실험 메타데이터 관리**: 이 권한을 사용하면 Experimentation Agent을 사용하여 AI Assistant에서 직접 새 실험을 만들 수 있습니다.
 
 ➡️ [Journey Optimizer Experimentation Accelerator 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
@@ -36,11 +48,11 @@ Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공
 
 * **기회**: 수행할 다음 작업에 대한 지침
 
-![실험 에이전트용 샘플](./images/experiment/experiment-agent.png)
+![Experimentation Agent용 샘플](./images/experiment/experiment-agent.png)
 
 ## 사용 사례
 
-실험 에이전트는 결과를 분석하고, 콘텐츠를 해석하고, 다음 단계를 제안하여 실험 워크플로의 각 단계를 향상시킵니다.
+Experimentation Agent은 결과를 분석하고, 콘텐츠를 해석하고, 다음 단계를 제안하여 실험 워크플로의 각 단계를 향상시킵니다.
 
 이 기능은 다음 5가지 주요 기능으로 그룹화할 수 있습니다.
 
@@ -83,7 +95,7 @@ Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공
 
 ## 샘플 프롬프트
 
-다음은 실험 에이전트를 시작하는 데 도움이 되는 프롬프트 샘플 목록입니다.
+다음은 Experimentation Agent을 시작하는 데 도움이 되는 프롬프트 샘플 목록입니다.
 
 ### 일반 질문
 
@@ -110,7 +122,7 @@ Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공
 
 | 프롬프트 |
 |-|
-| `<experiment name>` 테스트란? |
+| `<experiment name>` 테스트란? ? |
 | `<experiment name>`에서 무엇을 배웠습니까? |
 | A치료비가 왜 이겼는지 말해 줄 수 있나요? |
 | 우수성이 검증된 변형의 트렌드는 무엇입니까? |
