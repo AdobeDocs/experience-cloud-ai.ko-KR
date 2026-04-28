@@ -29,14 +29,19 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2687
 ht-degree: 14%
 
 ---
 
+
 # Journey Agent: 개요 및 사용 안내서
+
+>[!AVAILABILITY]
+>
+>Journey Agent Explorer 프로그램의 일부인 고객은 Agent Orchestrator 제작 기술 및 콘텐츠 생성 기술을 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터에 문의하십시오.
 
 ## Adobe Journey Optimizer에서 Journey Agent 소개
 
@@ -56,7 +61,7 @@ Journey Agent은 다음과 같은 세 가지 주요 작업으로 구성됩니다
 
 >[!AVAILABILITY]
 >
->여정 만들기 는 AI Assistant에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 그러나 여정 만들기 기능을 완전히 사용하려면 다음 권한이 필요합니다.
+>여정 만들기 는 Agent Orchestrator 탐색기 프로그램의 일부인 고객이 사용할 수 있습니다. 여정 만들기 기능을 완전히 사용하려면 다음 권한도 필요합니다.
 >
 >**여정 관리**: 이 권한을 사용하면 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
 >
@@ -227,46 +232,46 @@ Journey Agent은 다음과 같은 세 가지 주요 작업으로 구성됩니다
 
 현재 다음 기능은 지원되지 않습니다.
 
-- **Brand alignment and content quality checks**
-- **Insert content nodes directly into journey canvas**
-- **Template import**
+- **브랜드 정렬 및 콘텐츠 품질 검사**
+- **콘텐츠 노드를 여정 캔버스에 직접 삽입**
+- **템플릿 가져오기**
 
 ## 샘플 프롬프트
 
-### Content generation
+### 콘텐츠 생성
 
-&quot;Generate email content for my welcome journey. Create a welcome email for new customers with a friendly tone and include a 10% discount offer.&quot;
+&quot;내 환영 여정에 대한 이메일 콘텐츠를 생성합니다. 친근한 어조로 새로운 고객을 위한 환영 이메일을 만들고 10% 할인 오퍼를 포함하십시오.&quot;
 
-&quot;Add content for channel email for my welcome journey.&quot;
+&quot;내 시작 여정에 대한 채널 이메일 콘텐츠를 추가합니다.&quot;
 
-&quot;Generate a push notification for my store visit journey. Create a welcome message that encourages customers to check in and receive a special offer.&quot;
+&quot;내 스토어 방문 여정에 대한 푸시 알림을 생성합니다. 고객이 체크인하고 특별 오퍼를 받을 수 있도록 격려하는 환영 메시지를 만드십시오.&quot;
 
-&quot;Generate SMS content for my event-triggered journey. Create a short message notifying customers about a flash sale with a call-to-action.&quot;
+&quot;이벤트가 트리거된 여정에 대한 SMS 콘텐츠를 생성합니다. call-to-action을 사용한 플래시 판매에 대해 고객에게 알리는 짧은 메시지를 만듭니다.&quot;
 
-### Template selection
+### 템플릿 선택
 
-&quot;Show me available email templates for my seasonal campaign journey.&quot;
+&quot;시즌 캠페인 여정에 사용할 수 있는 이메일 템플릿을 표시합니다.&quot;
 
-&quot;Select a template for my email that has a modern, clean design.&quot;
+&quot;현대적이고 깔끔한 디자인의 내 이메일에 대한 템플릿을 선택하십시오.&quot;
 
-### Content editing and refinement
+### 콘텐츠 편집 및 세분화
 
-&quot;Open the email content in Content Designer so I can customize the design.&quot;
+&quot;디자인을 사용자 지정할 수 있도록 컨텐츠 Designer에서 이메일 컨텐츠를 엽니다.&quot;
 
-&quot;Regenerate the push notification content with a more casual tone.&quot;
+&quot;보다 캐주얼한 톤으로 푸시 알림 콘텐츠를 다시 생성합니다.&quot;
 
-&quot;Update the email content to include a promotional code.&quot;
+&quot;프로모션 코드를 포함하도록 이메일 콘텐츠를 업데이트합니다.&quot;
 
 ## 모범 사례
 
-### Prompting best practices
+### 프롬프트 우수 사례
 
-1. **Be Specific**: Provide clear details about the content type, tone, target audience, and key messaging.
-1. **Specify Channel**: Clearly indicate which channel you are creating content for (email, push, SMS).
-1. **Define Tone**: Specify the desired tone (friendly, formal, casual, urgent).
-1. **Iterate and Refine**: Use the regenerate action to refine content until it meets your requirements.
+1. **고유해야 함**: 콘텐츠 형식, 색조, 대상 및 키 메시지에 대한 자세한 내용을 제공합니다.
+1. **채널 지정**: 콘텐츠를 만드는 채널(전자 메일, 푸시, SMS)을 명확하게 표시합니다.
+1. **톤 정의**: 원하는 톤(친숙한 톤, 정형적인 톤, 캐주얼한 톤, 긴급 톤)을 지정합니다.
+1. **반복 및 세분화**: 요구 사항을 충족할 때까지 재생성 작업을 사용하여 콘텐츠를 세분화합니다.
 
-## Journey Analyze: Use Cases, Agentic Skills and User Guide
+## 여정 분석: 사용 사례, 에이전트 기술 및 사용 안내서
 
 ## 개요
 
