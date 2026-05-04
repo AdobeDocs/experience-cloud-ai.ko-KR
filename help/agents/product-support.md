@@ -1,7 +1,6 @@
 ---
 title: 제품 지원 에이전트
 description: AI 어시스턴트의 제품 지원 에이전트를 사용해 문제 해결과 고객 지원 티켓 제출 프로세스를 간소화하는 방법에 대해 알아봅니다.
-TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role_v2:
@@ -12,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -20,6 +19,10 @@ ht-degree: 100%
 ---
 
 # 제품 지원 에이전트
+
+<!--
+TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
+-->
 
 제품 지원 에이전트는 Adobe Experience Platform 기능 및 애플리케이션에 사용할 수 있는 AI Assistant의 셀프서비스 디버깅 및 문제 해결 기능입니다.
 
