@@ -5,34 +5,15 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f68659190b3333b918e6d5d5aaec37d1f9a28d49
 workflow-type: tm+mt
-source-wordcount: 2687
-ht-degree: 14%
+source-wordcount: 3358
+ht-degree: 11%
 
 ---
 
@@ -47,11 +28,17 @@ ht-degree: 14%
 
 Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 마케팅 여정을 만들고, 분석하고, 최적화할 수 있습니다. Journey 에이전트를 사용하면 실무자가 신속하게 여정을 빌드하고, 일정 또는 대상자 충돌을 감지 및 해결하며, 성과 및 중단 지점을 분석하고, 향후 캠페인에서 재현할 수 있는 가장 성과가 좋은 여정을 식별할 수 있게 합니다. 이를 통해 실무자는 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
 
-Journey Agent은 다음과 같은 세 가지 주요 작업으로 구성됩니다.
+Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다.
 
 - **여정 만들기**: 자연어 프롬프트를 통해 마케팅 여정을 빌드하고 구성합니다.
 - **채널 콘텐츠 만들기**: AI 기반 콘텐츠 생성을 사용하여 여정에 대한 채널별 콘텐츠(이메일, 푸시, SMS)를 생성하고 편집하고 관리합니다.
 - **분석 여정**: 여정 분석, 문제 감지, 인사이트 발견 및 고객 참여 최적화
+
+또한 **여정 시뮬레이션**&#x200B;은(는) 다음 세 가지 기능을 갖춘 제품 내 에이전트 스킬(비대화형)인 [여정 시뮬레이션](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)을 포함하는 Journey Optimizer 기능입니다.
+
+- 시뮬레이션된 사용자 생성
+- 이벤트 값 생성
+- 빠른 시뮬레이션
 
 ## 여정 생성: 사용 사례, 에이전트 기술 및 사용 안내서
 
@@ -277,7 +264,7 @@ Journey Agent은 다음과 같은 세 가지 주요 작업으로 구성됩니다
 
 Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. Journey Agent을 통해 실무자는 신속하게 일정 및/또는 대상 충돌을 식별하고 해결하며 여정에서 사용자 포기 지점을 감지하고 통찰력 또는 권장 사항을 제공할 수 있습니다. 이를 통해 실무자는 데이터 기반의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
 
-자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/ko/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
+자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/en/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
 
 >[!AVAILABILITY]
 >
@@ -419,8 +406,82 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 - **정기적 모니터링**: 여정 성과를 정기적으로 검토하여 트렌드 및 예외 항목을 파악합니다.
 - **세분화 최적화**: 피로를 막고 참여도를 극대화할 수 있도록 대상자 세분화를 균형 있게 조정합니다.
 
-## 슬라이드 및 프레젠테이션
+## 여정 시뮬레이션: 사용 사례, 에이전트 기술 및 사용 안내서
 
->[!NOTE]
->
->Journey Agent에 대한 슬라이드 및 프레젠테이션 자료는 여기에서 볼 수 있습니다. 업데이트를 곧 다시 확인하십시오.
+## 개요
+
+>[!BEGINSHADEBOX]
+
+여정 시뮬레이션은 모든 Journey Optimizer 고객이 사용할 수 있습니다. 여정 시뮬레이션 내의 제품 내 에이전틱 스킬인 여정 시뮬레이트는 Agent Orchestrator Explorer 프로그램에 속하고 다음 권한 중 하나 이상이 필요한 고객이 사용할 수 있습니다.
+
+- **여정 시뮬레이션**: 여정 캔버스에서 시뮬레이션 워크플로우를 실행합니다.
+
+- **여정 게시**: Go-Live 전에 시뮬레이션을 사용하는 흐름을 포함한 여정을 게시합니다.
+
+- **여정 승인 및 게시**: 조직에서 승인 워크플로를 사용하는 경우 여정을 승인하고 게시합니다.
+
+**[!UICONTROL 시뮬레이션]**&#x200B;에서 AI를 사용하려면(**[!UICONTROL 빠른 시뮬레이션]**, AI로 시뮬레이션된 사용자 생성 **[!UICONTROL 이벤트 값 생성]**) 사용자는 **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]** 권한이 필요합니다.
+
+[권한에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+
+>[!ENDSHADEBOX]
+
+여정 시뮬레이션은 Journey Optimizer 사용자가 활성화하기 전에 마케팅 여정을 안전하게 테스트하고 확인할 수 있는 Journey Optimizer 기능입니다. 여정 시뮬레이션 내에서 여정 시뮬레이트는 대화형 스킬이 아닌 제품 내 에이전트 스킬로, 여정 캔버스에서 직접 테스트 프로세스를 자동화하고 지원합니다.
+
+여정 시뮬레이트에는 다음 세 가지 기능이 포함됩니다.
+
+- 시뮬레이션된 사용자 생성
+- 이벤트 값 생성
+- 빠른 시뮬레이션.
+
+이를 통해 여정 생성과 활성화 간의 차이를 극복하여 여정 논리에 대한 신뢰도를 높이고 출시 후 오류 위험을 줄일 수 있습니다.
+
+## 사용 사례
+
+### 여정 시뮬레이션에 대한 주요 사용 사례
+
+여정 시뮬레이트는 go-live 전 테스트 시간을 줄이고 여정 품질을 개선하는 데 활용할 수 있는 다음 세 가지 기능을 제공합니다.
+
+**시뮬레이션된 사용자 생성**
+
+- 여정 경로 및 필수 속성에 따라 자동으로 시뮬레이션된 사용자를 생성합니다.
+- 실행 주소(이메일, 푸시, SMS)를 포함하여 여정의 모든 분기 및 조건을 다루는 시뮬레이션된 사용자를 만듭니다.
+- 요청 시 시뮬레이션된 사용자 속성을 업데이트하여 테스트 시나리오를 구체화합니다.
+- 각 경로에 올바른 시뮬레이션된 사용자를 할당하여 모든 여정 분기가 처리되는지 확인합니다.
+
+**이벤트 값 생성**
+
+- 특정 경로를 통해 테스트 실행을 유도하기 위해 여정에 사용되는 이벤트에 대한 값을 생성합니다.
+- 시뮬레이션 중에 원하는 조건 및 분기를 트리거하는 이벤트 속성 값을 정의합니다.
+
+**빠른 시뮬레이션**
+
+- 하나의 상호 작용에서 여정의 모든 경로를 테스트하는 데 필요한 모든 시뮬레이션된 사용자에 대해 여정 시뮬레이션을 시작하고 테스트 실행을 트리거합니다.
+- 분기 경로 및 조건부 논리를 포함하여 시뮬레이트된 사용자가 여정을 통해 어떻게 이동하는지 단계별로 시각화합니다.
+- 상세한 노드별 트래버스를 통해 어떤 시뮬레이션된 사용자가 어떤 경로를 통해 흐르며 그 이유는 무엇인지 식별합니다.
+- Journey Optimizer UI의 실행이 끝나면 시뮬레이션 보고를 검토하여 활성화 전에 결과를 확인합니다.
+
+## 범위 내 스킬 및 제한 사항
+
+### **범위**
+
+여정 시뮬레이션 기능은 다음 기능을 지원합니다.
+
+- **시뮬레이션된 사용자 관리**: 실행 주소 및 개인화 데이터를 포함하여 시뮬레이션된 사용자 특성을 보고 편집하고 업데이트합니다.
+- **시뮬레이션 제어**: 여정 시뮬레이션 제품 내 경험을 통해 직접 여정 시뮬레이션을 시작하고 중지합니다.
+- **테스트 실행**: 하나 이상의 시뮬레이션된 사용자에 대한 테스트 실행을 트리거합니다.
+- **여정 흐름 시각화**: 분기, 분할 및 사용자 상태를 포함하여 여정 노드를 통해 시뮬레이션된 사용자의 단계별 순회를 봅니다.
+- **시뮬레이션 보고**: Journey Optimizer UI에서 시뮬레이션 실행이 끝나면 보고를 봅니다.
+- **다중 사용자 테스트**: 여러 시뮬레이션 사용자에 대한 테스트를 동시에 실행하고 시각화하여 모든 여정 분기를 다룹니다.
+
+이 외에도 여정 시뮬레이트 스킬에서는 다음 기능이 지원됩니다.
+
+- **시뮬레이션된 사용자 생성**: 여정 경로, 기존 테스트 프로필 또는 지정된 특성을 기반으로 시뮬레이션된 사용자를 만듭니다.
+- **이벤트 값 생성**: 특정 여정 경로를 통해 테스트 실행을 유도하기 위해 이벤트 특성 값을 생성하고 할당합니다.
+- **빠른 시뮬레이션**: 최소한의 개입으로 전체 엔드 투 엔드 시뮬레이션을 실행합니다. 이 스킬은 자동으로 시뮬레이션된 사용자, 이벤트 값 및 미리 채워진 테스트 설정을 생성한 다음 여정을 실행하고 검토를 위한 결과를 표시합니다.
+
+### **제한 사항**
+
+시뮬레이션은 테스트 모드나 라이브 여정이 지원하는 모든 활동, 채널 또는 통합을 지원하지 않을 수 있으며, 기능이 향상됨에 따라 동작이 변경될 수 있습니다.
+
+➡️ Journey Optimizer 설명서에서 [시뮬레이션 제한 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)에 대해 자세히 알아보세요.
