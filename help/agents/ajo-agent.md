@@ -53,7 +53,7 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 - **채널 콘텐츠 만들기**: AI 기반 콘텐츠 생성을 사용하여 여정에 대한 채널별 콘텐츠(이메일, 푸시, SMS)를 생성하고 편집하고 관리합니다.
 - **분석 여정**: 여정 분석, 문제 감지, 인사이트 발견 및 고객 참여 최적화
 
-또한 **여정 시뮬레이션**&#x200B;은(는) 다음 세 가지 기능을 갖춘 제품 내 에이전트 스킬(비대화형)인 [여정 시뮬레이션](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)을 포함하는 Journey Optimizer 기능입니다.
+또한 **여정 시뮬레이션**&#x200B;은(는) 다음 세 가지 기능을 갖춘 제품 내 에이전트 스킬(비대화형)인 [여정 시뮬레이션](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)을 포함하는 Journey Optimizer 기능입니다.
 
 - 시뮬레이션된 사용자 생성
 - 이벤트 값 생성
@@ -283,7 +283,7 @@ Journey Agent은 다음과 같은 네 가지 주요 작업으로 구성됩니다
 
 Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. Journey Agent을 통해 실무자는 신속하게 일정 및/또는 대상 충돌을 식별하고 해결하며 여정에서 사용자 포기 지점을 감지하고 통찰력 또는 권장 사항을 제공할 수 있습니다. 이를 통해 실무자는 데이터 기반의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
 
-자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/en/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
+자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/ko/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
 
 >[!AVAILABILITY]
 >
@@ -503,4 +503,4 @@ Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페
 
 시뮬레이션은 테스트 모드나 라이브 여정이 지원하는 모든 활동, 채널 또는 통합을 지원하지 않을 수 있으며, 기능이 향상됨에 따라 동작이 변경될 수 있습니다.
 
-➡️ Journey Optimizer 설명서에서 [시뮬레이션 제한 사항](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)에 대해 자세히 알아보세요.
+➡️ Journey Optimizer 설명서에서 [시뮬레이션 제한 사항](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)에 대해 자세히 알아보세요.
