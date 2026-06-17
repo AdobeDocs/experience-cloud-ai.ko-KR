@@ -27,7 +27,7 @@ ht-degree: 4%
 
 다음 비디오는 Adobe Experience Platform 에이전트 평가판에 대한 이해를 돕기 위한 것입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480235?captions=kor&learn=on)
 
 ## 평가판에 사용할 수 있는 사항
 
