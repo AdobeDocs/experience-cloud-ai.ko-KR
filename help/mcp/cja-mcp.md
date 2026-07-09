@@ -84,11 +84,11 @@ Customer Journey Analytics 도구는 MCP 클라이언트에서 관리 분석 워
 
 **개요**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486321/?captions=kor&learn=on&enablevpops)
 
 **작업 중**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486332/?captions=kor&learn=on&enablevpops)
 
 ## 추가 정보 {#mcp-more}
 
