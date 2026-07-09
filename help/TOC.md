@@ -5,10 +5,10 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: Experience Cloud의 AI 어시스턴트에 대해 알아봅니다. Experience Cloud의 AI를 활용하여 제품 지식을 향상시키고 운영에 대한 인사이트를 얻습니다.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 047d5ff2aacdc0e74be6757c996fc73006432e66
+source-git-commit: f82d4d72fb14600aa5cb5113e47cbb08c1989076
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 53%
+source-wordcount: '119'
+ht-degree: 50%
 
 ---
 
@@ -39,3 +39,4 @@ ht-degree: 53%
    - [Real-Time CDP Mcp](./mcp/rtcdp-mcp.md)
 - 동료 {#coworker}
    - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
+   - {hide-from-toc}[AA에서 CJA으로의 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
