@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사
 description: Analytics 관리자가 CX Enterprise Coworker 데이터 유효성 검사 기술을 사용하여 마이그레이션 도중 Adobe Analytics 및 Customer Journey Analytics 데이터를 비교하는 방법에 대해 알아봅니다.
-hold: true
-source-git-commit: 850bfef76e3c3e081f9860b9757e5e5128383f76
+hide: true
+source-git-commit: 1d0c3b73a3a9f18440920a19caa4645243e73730
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,10 @@ CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analytics으
 
 1. 설정 프로세스에는 아래 표의 질문이 포함되어 있습니다. 각 질문에 대한 답변을 선택한 다음 [!UICONTROL **제출**]&#x200B;을 선택합니다.
 
+   >[!NOTE]
+   >
+   >이러한 선택 항목은 나중에 같은 대화에서 변경할 수 있습니다. 예를 들어, 에이전트에게 보고서 세트나 데이터 보기를 변경하도록 요청하면 에이전트는 전체 설정 프로세스를 다시 시작하지 않고 해당 선택을 업데이트하는 데 필요한 단계만 반복합니다.
+
    | 질문 | 추가 컨텍스트 |
    |---------|----------|
    | [!UICONTROL **Analytics 회사 선택**] | Adobe Analytics 로그인 회사입니다. |
@@ -67,25 +71,70 @@ CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analytics으
    |---------|----------|
    | [!UICONTROL **단일 지표 비교**] | Adobe Analytics과 Customer Journey Analytics 간의 한 지표의 트렌드를 비교합니다. 페이지 보기 수 또는 방문 수와 같은 특정 지표에 대해 빠른 검사를 원하는 경우 사용하십시오. |
    | [!UICONTROL **단일 차원 비교**] | Adobe Analytics과 Customer Journey Analytics 간의 단일 차원 분류를 비교합니다. 특정 차원에 대한 매핑 또는 분류 차이가 의심되는 경우 사용합니다. |
-   | [!UICONTROL **전체 보고서 세트 및 데이터 보기 감사**] | 한 번의 실행으로 최대 20개의 지표와 차원을 비교할 수 있습니다. 마이그레이션의 전체 상태를 종합적으로 보려는 경우 사용합니다. |
+   | [!UICONTROL **전체 보고서 세트 및 데이터 보기 감사**] | 한 번의 실행으로 최대 40개의 지표와 10개의 차원을 비교할 수 있습니다. 마이그레이션의 전체 상태를 종합적으로 보려는 경우 사용합니다. |
+
+
 
 1. 다음 섹션을 계속합니다. [분석을 검토합니다](#review-the-analysis).
 
 ## 분석 검토
 
-1. 분석을 검토하려면 다음 탭을 각각 선택하십시오.
+1. [!UICONTROL **전체 일치율**] 탭을 선택하여 Adobe Analytics 보고서 세트의 데이터가 Customer Journey Analytics 데이터 보기의 데이터와 얼마나 가깝게 일치하는지 나타내는 백분율을 확인합니다. 이 점수는 항상 다른 결과보다 먼저 나타납니다. 페이지 보기 수와 같은 대량 지표가 점수를 왜곡하지 않도록 비교되는 모든 지표와 차원의 가중치를 동일하게 부여합니다.
 
-   | 분석 검토 탭 | 설명 |
-   |---------|----------|
-   | [!UICONTROL **전체 일치율**] | Adobe Analytics 보고서 세트의 데이터가 Customer Journey Analytics 데이터 보기의 데이터와 일치하는 정도를 나타내는 백분율입니다. |
-   | [!UICONTROL **주요 인사이트**] | 분석 중에 발견된 주요 인사이트. |
-   | [!UICONTROL **요약**] | Adobe Analytics 합계, Customer Journey Analytics 합계, 총 차이, 합격 일수 및 중요 일수. <!--what are these?--> |
-   | [!UICONTROL **일별 트렌드**] | Adobe Analytics 데이터와 Customer Journey Analytics 데이터의 병렬 비교를 보여 주는 그래프입니다. |
-   | [!UICONTROL **일별 세부 정보**] | <!--what goes here?--> |
+   다음 척도를 사용하여 점수를 해석합니다.
 
-1. 분석 중에 발견된 추가 패턴, 해당 패턴의 가능한 원인 및 데이터 불일치를 해결하기 위해 취할 수 있는 제안된 작업을 보려면 분석에서 아래로 스크롤하십시오.
+   | 점수 | 등급 | 의미 |
+   |---------|----------|----------|
+   | 97%-100% | ![녹색 사각형](./images/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 훌륭함] | 모든 속성은 고도로 정렬되어 있습니다. 필요한 작업이 없습니다. |
+   | 90%-96% | ![노란색 원](./images/data-validation-aa-cja/good-circle.svg) [!UICONTROL 양호] | 약간의 간격이 있습니다. 트렌드를 모니터링하고 감소 여부를 조사합니다. |
+   | 75%-89% | ![주황색 원](./images/data-validation-aa-cja/review-circle.svg) [!UICONTROL 검토] | 의미 있는 격차가 존재합니다. Customer Journey Analytics 데이터에 의존하기 전에 근본 원인을 조사합니다. |
+   | 75% 미만 | ![빨간색 원](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 부족] | 심각한 오정렬. Customer Journey Analytics 데이터를 사용하기 전에 즉각적인 조치를 취하십시오. |
+
+1. 분석 결과 하나를 한 문장으로 요약한 짧은 콜아웃 상자를 2~4개 보려면 [!UICONTROL **주요 인사이트**] 탭을 선택하십시오. 설명선은 심각도별로 색상 코딩되므로 가장 중요한 결과를 먼저 발견할 수 있습니다.
+
+1. [!UICONTROL **요약**] 탭을 선택하여 Adobe Analytics 합계, Customer Journey Analytics 합계, 총 차이, 합격 일수 및 중요 일수를 확인합니다. 여기서 합격 일수 및 중요 일수는 날짜 범위의 며칠이 아래 설명된 [!UICONTROL **합격**] 및 [!UICONTROL **중요**] 분산 상태에 해당하는지 반영합니다.
+
+1. (조건부) 단일 차원 비교 또는 단일 지표 비교를 수행할 때 [!UICONTROL **일별 트렌드**] 탭에서 Adobe Analytics 데이터와 Customer Journey Analytics 데이터의 병렬 비교를 볼 수 있습니다.
+
+   지표의 경우 일별 트렌드를 비교하는 선 차트입니다.
+
+   ![꺾은선형 차트를 표시하는 일별 트렌드 탭](./images/data-validation-aa-cja/trend-line.png)
+
+   차원의 경우 상위 값을 비교하는 막대 차트입니다.
+
+   ![가로 막대형 차트를 표시하는 일별 트렌드 탭](./images/data-validation-aa-cja/trend-bar.png)
+
+1. (조건부) 단일 차원 비교 또는 단일 지표 비교를 수행할 때 [!UICONTROL **날짜 세부 정보**] 탭에서 행 수준 세부 정보를 볼 수 있습니다. 이 표에는 비교된 각 지표 또는 차원 값에 대한 날짜, Adobe Analytics 값, Customer Journey Analytics 값, 차이 백분율 및 상태 배지가 나열되어 있습니다.
+
+   ![변량 백분율 및 상태 배지 테이블을 표시하는 날짜 세부 정보 탭](./images/data-validation-aa-cja/date-detail.png)
+
+   차이 및 상태 열에는 다음 배율이 사용됩니다.
+
+   | 분산 | 상태 | 의미 |
+   |---------|----------|----------|
+   | 3% 미만 | ![녹색 확인 표시](./images/data-validation-aa-cja/pass-check.svg) [!UICONTROL 통과] | 데이터가 잘 정렬되어 있습니다. 필요한 작업이 없습니다. |
+   | 3%-10% | ![노란색 경고 삼각형](./images/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 플래그] | 차이를 모니터링하고 지속되거나 악화되는지 조사합니다. |
+   | 10% 이상 | ![빨간색 원](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 중요] | 즉시 조사하라 이는 일반적으로 스키마, 수집 또는 매핑 문제를 가리킵니다. |
+
+1. (조건부) 전체 보고서 세트 및 데이터 보기 감사를 실행할 때 [!UICONTROL **일별 트렌드**] 및 [!UICONTROL **일별 세부 정보**] 탭은 합격, 플래그 지정 및 중요 카운트를 표시하는 스코어카드와 함께 가장 일치하는 상위 5개 지표 및 가장 일치하는 상위 5개 지표 및 차원을 나열하는 별도의 테이블로 바뀝니다.
+
+1. 분석에서 아래로 스크롤하여 추가 패턴 및 분석 중에 발견된 문제, 이러한 패턴의 가능한 원인 및 데이터 불일치를 해결하기 위해 취할 수 있는 제안된 작업을 확인합니다.
+
+   >[!NOTE]
+   >
+   >일부 차이가 예상되며 마이그레이션에 문제가 있음을 나타내지는 않습니다.
+
+   일반적인 문제는 다음과 같습니다.
+
+   * Adobe Analytics은 장치 기반 방문자를 계산하지만 Customer Journey Analytics은 장치 간 ID 결합을 사용하여 사람을 계산합니다.
+   * Adobe Analytics은 수집 시간에 데이터를 처리하는 반면, Customer Journey Analytics은 보고서 시간에 데이터를 처리합니다.
+   * 세션 정의는 다릅니다. Adobe Analytics 방문에서는 고정된 시간 제한을 사용하는 반면 Customer Journey Analytics 세션은 구성할 수 있습니다.
+   * Adobe Analytics은 기본적으로 보트를 필터링하지만 Customer Journey Analytics 보트 필터링은 옵트인입니다.
+   * Adobe Analytics은 누락된 값을 &quot;지정되지 않음&quot; 또는 &quot;없음&quot;으로 보고하고 Customer Journey Analytics은 &quot;값 없음&quot;으로 보고합니다.
+   * 마케팅 채널 차이는 소급하여 적용된 Adobe Analytics 파생 필드와 비교되는 Customer Journey Analytics 처리 규칙으로 인해 발생할 수 있습니다.
+   * Customer Journey Analytics 값이 모든 지표에서 일관되게 Adobe Analytics 값의 약 두 배인 경우, 이는 일반적으로 ID 결합 효과가 아니라 데이터 보기에 중복 데이터를 나타냅니다.
 
 1. 제안된 작업이 유효한지 확인한 다음 Adobe Experience Platform 또는 Adobe Analytics에서 해결하십시오.
 
-1. (선택 사항) [확인할 데이터 선택](#choose-the-data-to-validate)에 설명된 대로 다른 지표를 분석하거나 다른 차원을 분석하거나 최대 20개의 지표 및 차원으로 구성된 다른 보고서를 실행하여 분석을 계속합니다.
+1. (선택 사항) [확인할 데이터 선택](#choose-the-data-to-validate)에 설명된 대로 다른 지표를 분석하거나 다른 차원을 분석하거나 최대 40개의 지표와 10개의 차원으로 구성된 다른 보고서를 실행하여 분석을 계속합니다. 회사, 보고서 세트 및 데이터 보기 선택 사항이 대화 전체에서 수행되도록 설정 프로세스를 반복할 필요는 없습니다.
 
