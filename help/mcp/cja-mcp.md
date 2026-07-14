@@ -1,7 +1,7 @@
 ---
-title: Adobe CX Enterprise MCP의 Customer Journey Analytics 도구
-description: Adobe CX Enterprise MCP를 통해 사용할 수 있는 Adobe Customer Journey Analytics 도구에 대해 알아봅니다.
-source-git-commit: 6c73b4d2e452a82597565d71279df2dba605a977
+title: Adobe CX Coworker Gateway의 Customer Journey Analytics 툴
+description: Adobe CX Coworker Gateway를 통해 사용할 수 있는 Adobe Customer Journey Analytics 도구에 대해 알아봅니다.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 3%
@@ -9,13 +9,13 @@ ht-degree: 3%
 ---
 
 
-# Adobe CX Enterprise MCP의 Customer Journey Analytics 도구 {#cja-mcp}
+# Adobe CX Coworker Gateway의 Customer Journey Analytics 툴 {#cja-mcp}
 
-Customer Journey Analytics 제품 도구를 사용하여 데이터 보기를 탐색하고 차원 및 지표를 검색하며 보고서를 실행하고 MCP 호환 클라이언트에서 선택한 Analytics 구성 요소를 관리합니다. 이러한 도구는 계정에 필요한 Customer Journey Analytics 라이선스 및 권한이 있는 경우 [CX Enterprise MCP](overview.md)를 통해 사용할 수 있습니다.
+Customer Journey Analytics 제품 도구를 사용하여 데이터 보기를 탐색하고 차원 및 지표를 검색하며 보고서를 실행하고 MCP 호환 클라이언트에서 선택한 Analytics 구성 요소를 관리합니다. 이러한 도구는 계정에 필요한 Customer Journey Analytics 라이선스 및 권한이 있는 경우 [CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->Customer Journey Analytics 도구는 Customer Journey Analytics 라이선스를 가진 고객이 사용할 수 있습니다. 액세스는 Adobe Admin Console의 **MCP 액세스** 권한에 의해 제어됩니다. [CX 엔터프라이즈 MCP 도구 액세스](access.md)를 참조하십시오.
+>Customer Journey Analytics 도구는 Customer Journey Analytics 라이선스를 가진 고객이 사용할 수 있습니다. 액세스는 Adobe Admin Console의 **MCP 액세스** 권한에 의해 제어됩니다. [CX Coworker 게이트웨이 도구 액세스](access.md)를 참조하십시오.
 
 ## 주요 기능 {#mcp-capabilities}
 
@@ -84,11 +84,11 @@ Customer Journey Analytics 도구는 MCP 클라이언트에서 관리 분석 워
 
 **개요**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486321/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
 
 **작업 중**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486332/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
 
 ## 추가 정보 {#mcp-more}
 

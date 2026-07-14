@@ -1,7 +1,7 @@
 ---
-title: CX 엔터프라이즈 MCP의 Adobe Experience Platform 툴
-description: CX Enterprise MCP를 통해 사용 가능한 Adobe Experience Platform 툴에 대해 알아봅니다.
-source-git-commit: 152079b15dc0dfd1dbe389fe2d18be0780b5bf71
+title: CX Coworker Gateway의 Adobe Experience Platform 툴
+description: CX Coworker Gateway를 통해 사용할 수 있는 Adobe Experience Platform 툴에 대해 알아봅니다.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 8%
@@ -9,13 +9,13 @@ ht-degree: 8%
 ---
 
 
-# Adobe CX Enterprise MCP의 Adobe Experience Platform 도구 {#aep-mcp}
+# Adobe CX Coworker Gateway의 Adobe Experience Platform 툴 {#aep-mcp}
 
-Adobe Experience Platform 제품 도구를 사용하여 MCP 호환 클라이언트에서 스키마, 데이터 세트, 데이터 거버넌스 구성, 쿼리 서비스 리소스 및 감사 이벤트를 검사할 수 있습니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Experience Platform 권한이 있는 경우 [Adobe CX Enterprise MCP](overview.md)를 통해 사용할 수 있습니다.
+Adobe Experience Platform 제품 도구를 사용하여 MCP 호환 클라이언트에서 스키마, 데이터 세트, 데이터 거버넌스 구성, 쿼리 서비스 리소스 및 감사 이벤트를 검사할 수 있습니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Experience Platform 권한이 있는 경우 [Adobe CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->Experience Platform 제품 도구는 Beta에 있습니다. 액세스는 초대를 통해서만 가능하며 Adobe 조직 활성화가 필요합니다. [CX 엔터프라이즈 MCP 도구 액세스](access.md)를 참조하십시오.
+>Experience Platform 제품 도구는 Beta에 있습니다. 액세스는 초대를 통해서만 가능하며 Adobe 조직 활성화가 필요합니다. [CX Coworker 게이트웨이 도구 액세스](access.md)를 참조하십시오.
 
 ## 요약
 

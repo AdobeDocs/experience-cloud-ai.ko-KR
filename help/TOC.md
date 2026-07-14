@@ -5,7 +5,7 @@ user-guide-description: AI 어시스턴트를 사용하여 Adobe Experience Plat
 description: Experience Cloud의 AI 어시스턴트에 대해 알아봅니다. Experience Cloud의 AI를 활용하여 제품 지식을 향상시키고 운영에 대한 인사이트를 얻습니다.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: e5bf7d7ac41af7e373cc9eaef2bd11b2f91f4cd2
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 35%
@@ -36,19 +36,19 @@ ht-degree: 35%
    - 데이터 엔지니어링 {#data-engineering}
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-   - [Adobe CX 엔터프라이즈 MCP](./mcp/overview.md)
+   - [Adobe CX Coworker 게이트웨이](./mcp/overview.md)
    - {hide-from-toc}[Real-Time CDP MCP 베타](./mcp/beta/rtcdp-mcp.md)
    - 시작하기 {#mcp-get-started}
-      - [CX 엔터프라이즈 MCP 툴 액세스](./mcp/access.md)
-      - [CX 엔터프라이즈 MCP 설치](./mcp/install.md)
-      - [CX 엔터프라이즈 MCP의 세션 컨텍스트 툴](./mcp/context-tools.md)
+      - [CX Coworker 게이트웨이 도구 액세스](./mcp/access.md)
+      - [CX Coworker Gateway 설치](./mcp/install.md)
+      - [CX Coworker 게이트웨이의 세션 컨텍스트 툴](./mcp/context-tools.md)
    - 제품 도구 {#mcp-product-tools}
       - [Real-Time CDP 도구](./mcp/rtcdp-mcp.md)
       - [Experience Platform 도구](./mcp/aep-mcp.md)
       - [Journey Optimizer 도구](./mcp/ajo-mcp.md)
       - [Customer Journey Analytics 도구](./mcp/cja-mcp.md)
       - [Adobe Analytics 도구](./mcp/analytics-mcp.md)
-      - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+      - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 동료 {#coworker}
    - {hide-from-toc}[플레이그라운드에서 동료 채팅](./coworker/playground-coworker-chat.md)
    - {hide-from-toc}[AA에서 CJA으로의 마이그레이션 데이터 유효성 검사](./coworker/data-validation-aa-cja.md)
