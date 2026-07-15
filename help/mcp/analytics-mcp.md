@@ -1,20 +1,20 @@
 ---
-title: Adobe CX Enterprise MCP의 Adobe Analytics 도구
-description: Adobe CX Enterprise MCP를 통해 사용할 수 있는 Adobe Analytics 도구에 대해 알아봅니다.
-source-git-commit: df05761a8555950366fcaa201ce9c0fd47bb0802
+title: Adobe CX Coworker Gateway의 Adobe Analytics 툴
+description: Adobe CX Coworker Gateway를 통해 사용할 수 있는 Adobe Analytics 도구에 대해 알아봅니다.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 4%
 
 ---
 
-# Adobe CX Enterprise MCP의 Adobe Analytics 도구 {#aa-mcp}
+# Adobe CX Coworker Gateway의 Adobe Analytics 툴 {#aa-mcp}
 
-Adobe Analytics 도구를 사용하여 보고서 세트를 탐색하고, 차원과 지표를 검색하고, 보고서를 실행하고, MCP 호환 클라이언트에서 선택한 Analytics 구성 요소를 관리할 수 있습니다. 이러한 도구는 계정에 필요한 Adobe Analytics 라이선스 및 권한이 있는 경우 통합 [Adobe CX Enterprise MCP](overview.md)를 통해 사용할 수 있습니다.
+Adobe Analytics 도구를 사용하여 보고서 세트를 탐색하고, 차원과 지표를 검색하고, 보고서를 실행하고, MCP 호환 클라이언트에서 선택한 Analytics 구성 요소를 관리할 수 있습니다. 이러한 도구는 계정에 필요한 Adobe Analytics 라이선스 및 권한이 있을 때 통합 [Adobe CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->Analytics 도구는 Adobe Analytics 라이선스가 있는 고객이 사용할 수 있습니다. 액세스는 Adobe Admin Console의 **MCP 액세스** 권한에 의해 제어됩니다. 자세한 내용은 [CX 엔터프라이즈 MCP 도구 액세스](access.md)를 참조하십시오.
+>Analytics 도구는 Adobe Analytics 라이선스가 있는 고객이 사용할 수 있습니다. 액세스는 Adobe Admin Console의 **MCP 액세스** 권한에 의해 제어됩니다. 자세한 내용은 [CX Coworker 게이트웨이 도구 액세스](access.md)를 참조하십시오.
 
 ## 주요 기능 {#mcp-capabilities}
 

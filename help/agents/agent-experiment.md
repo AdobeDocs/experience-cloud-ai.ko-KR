@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
+source-git-commit: fddbc156de78cc72bcc1ed4906be6e089191f5b0
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 # Experimentation Agent
 
 <!--
-TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp%2D%2D%2Dg8KuYNyewIv54IQ53pxoE2g700o0
 -->
 
 >[!AVAILABILITY]
@@ -86,7 +86,7 @@ Experimentation Agent은 결과를 분석하고, 콘텐츠를 해석하고, 다�
 현재 지원되는 기능은 다음과 같습니다.
 
 * 성능
-* Insights
+* 인사이트
 * 기회
 
 ### **범위 외**

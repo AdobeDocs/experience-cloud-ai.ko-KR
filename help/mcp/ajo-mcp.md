@@ -1,20 +1,20 @@
 ---
-title: CX 엔터프라이즈 MCP의 Adobe Journey Optimizer 툴
-description: CX Enterprise MCP를 통해 사용 가능한 Adobe Journey Optimizer 툴에 대해 알아봅니다.
-source-git-commit: 6c73b4d2e452a82597565d71279df2dba605a977
+title: CX Coworker Gateway의 Adobe Journey Optimizer 툴
+description: CX Coworker Gateway를 통해 사용할 수 있는 Adobe Journey Optimizer 툴에 대해 알아봅니다.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 3%
 
 ---
 
-# CX 엔터프라이즈 MCP의 Adobe Journey Optimizer 툴 {#ajo-mcp}
+# CX Coworker Gateway의 Adobe Journey Optimizer 툴 {#ajo-mcp}
 
-Adobe Journey Optimizer 제품 도구를 사용하여 MCP 호환 클라이언트로부터 캠페인 및 채널 구성을 검사합니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Journey Optimizer 권한이 있는 경우 [CX Enterprise MCP](overview.md)를 통해 사용할 수 있습니다.
+Adobe Journey Optimizer 제품 도구를 사용하여 MCP 호환 클라이언트로부터 캠페인 및 채널 구성을 검사합니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Journey Optimizer 권한이 있는 경우 [CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->Journey Optimizer 제품 도구는 Beta에 있습니다. 액세스는 초대를 통해서만 가능하며 Adobe 조직 활성화가 필요합니다. [CX 엔터프라이즈 MCP 도구 액세스](access.md)를 참조하십시오.
+>Journey Optimizer 제품 도구는 Beta에 있습니다. 액세스는 초대를 통해서만 가능하며 Adobe 조직 활성화가 필요합니다. [CX Coworker 게이트웨이 도구 액세스](access.md)를 참조하십시오.
 
 ## 주요 기능 {#mcp-capabilities}
 

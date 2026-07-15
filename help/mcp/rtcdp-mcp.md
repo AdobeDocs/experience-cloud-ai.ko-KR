@@ -1,20 +1,20 @@
 ---
 title: Real-Time CDP MCP(Beta)
 description: MCP 서버를 사용하여 Adobe Real-Time CDP을 MCP 클라이언트에 연결하는 방법에 대해 알아봅니다.
-source-git-commit: 3e8651b12f4769a819ebb49ddca9d6a158f98e6d
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 3%
 
 ---
 
-# CX 엔터프라이즈 MCP의 Real-Time CDP 툴 {#rtcdp-mcp}
+# CX Coworker Gateway의 Real-Time CDP 툴 {#rtcdp-mcp}
 
-Real-Time CDP MCP 제품 도구를 사용하여 MCP 호환 클라이언트에서 대상, 대상, 소스, ID 네임스페이스 및 활성화 상태를 검사할 수 있습니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Real-Time CDP 권한이 있는 경우 통합 [CX Enterprise MCP 게이트웨이](overview.md)를 통해 사용할 수 있습니다.
+Real-Time CDP MCP 제품 도구를 사용하여 MCP 호환 클라이언트에서 대상, 대상, 소스, ID 네임스페이스 및 활성화 상태를 검사할 수 있습니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Real-Time CDP 권한이 있는 경우 통합 [CX Coworker Gateway](overview.md)를 통해 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->Real-Time CDP 제품 도구는 Beta에 있습니다. 액세스는 초대를 통해서만 가능하며 Adobe 조직 활성화가 필요합니다. [CX 엔터프라이즈 MCP 도구 액세스](access.md)를 참조하십시오.
+>Real-Time CDP 제품 도구는 Beta에 있습니다. 액세스는 초대를 통해서만 가능하며 Adobe 조직 활성화가 필요합니다. [CX Coworker 게이트웨이 도구 액세스](access.md)를 참조하십시오.
 
 ## 주요 기능 {#mcp-capabilities}
 
